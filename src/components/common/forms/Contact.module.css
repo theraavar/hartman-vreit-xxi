@@ -1,6 +1,24 @@
-.form {}
+.form {
+    align-items: center;
+    background-color: var(--foreground);
+    border: 4px solid var(--border);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px 4px;
+}
 
-.group {}
+.form>h3 {
+    color: var(--text);
+}
+
+.group {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    width: 100%;
+}
 
 .wrapper {
     background-color: var(--white);
@@ -13,6 +31,7 @@
     min-width: fit-content;
     position: relative;
     padding-top: 16px;
+    width: 100%;
 }
 
 /* https://tobiasahlin.com/blog/previous-sibling-css-has/ */
@@ -55,3 +74,17 @@
 }
 
 .button {}
+
+@media screen and (max-width: 640px) {
+    .group {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 1536px) {}

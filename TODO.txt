@@ -15,3 +15,5 @@ TODO: Add some responsive on the height of the banner component.
 TODO: Ensure Card component is responsive if used outside of the Grid component?
 
 TODO: Ensure BetterLink component is responsive.
+
+TODO: Add animations to most major components.

@@ -1,0 +1,48 @@
+.wrapper {
+    background-color: var(--white);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    min-width: fit-content;
+    position: relative;
+    padding-top: 16px;
+}
+
+/* https://tobiasahlin.com/blog/previous-sibling-css-has/ */
+.wrapper:hover>label,
+.label:has(+ .input:not(:placeholder-shown)) {
+    color: var(--alpha);
+    font-size: 1rem;
+    top: 0px;
+}
+
+.wrapper:hover>.input::placeholder {
+    color: var(--beta);
+}
+
+.label {
+    color: var(--beta);
+    font-size: 1.6rem;
+    left: 4px;
+    position: absolute;
+    top: 8px;
+}
+
+.input {
+    background-color: var(--white);
+    border: none;
+    border-radius: 8px;
+    color: var(--beta);
+    height: 32px;
+    min-width: fit-content;
+    outline: none;
+    padding-left: 4px;
+}
+
+.input::placeholder {
+    color: transparent;
+    font-size: 1rem;
+}

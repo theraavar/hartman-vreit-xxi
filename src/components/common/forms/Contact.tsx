@@ -1,36 +1,45 @@
-/* This is a simple 'Contact Us' form that sends the form data to an email service. */
 "use client"
 
 import styles from './Contact.module.css'
 import { useState } from 'react'
-import emailjs from '@emailjs/browser'
-
+import Set from './inputs/Set'
 
 const initialValues = {
-    firstName: "",
+    firstName: '',
     lastName: "",
     email: "",
-    message: ""
+}
+const initialErrors = {
+    firstName: '',
+    lastName: "",
+    email: "",
+    message: 
 }
 const Contact = () => {
+
     const [values, setValue] = useState(initialValues)
-    const [errors, setError] = useState(initialValues)
+    const [errors, setError] = useState(initialErrors)
     const [sent, isSent] = useState(false)
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target
-        setValue({ ...values, [name]: value })
-
+        setValue({
+            ...values, [name]: value,
+        });
     }
     const validate = () => {
         let isValid = true
         if (!values.firstName.trim()) {
             errors.firstName = "First name is required."
             isValid = false
+        } else {
+            errors.firstName = ""
         }
         if (!values.lastName.trim()) {
             errors.lastName = "Last name is required."
             isValid = false
+        } else {
+            errors.lastName = ""
         }
         if (!values.email.trim()) {
             errors.email = "Email address is required."
@@ -38,105 +47,80 @@ const Contact = () => {
         } else if (!/\S+@\S+\.\S+/.test(values.email)) {
             errors.email = "Invalid email address provided."
             isValid = false
-        }
-        if (!values.message.trim()) {
-            errors.message = "Please let us know what your inquiry is."
-            isValid = false
+        } else {
+            errors.email = ""
         }
         return isValid
     }
+
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         if (validate()) {
             if (!sent) {
-                const params = {
-                    firstName: values.firstName,
-                    lastName: values.lastName,
-                    email: values.email,
-                    message: values.message
-                }
-                const publicKey = process.env.EMAILJS_PUBLIC_KEY as string
-                const serviceID = process.env.EMAILJS_SERVICE_ID as string
-                const templateID = process.env.EMAILJS_TEMPLATE_ID as string
-                emailjs.send(serviceID, templateID, params, publicKey)
-                    .then((result) => {
-                        console.log(result.text)
-                    }, (error) => {
-                        console.log(error.text)
-                    })
+                //Handle our data in here.
+                alert(values)
                 isSent(true)
             }
         }
     }
 
+    /* Once they send the form, this will appear instead. */
     if (sent) {
         return (
             <div>
-                <h3>Your message has been sent!</h3>
+
             </div>
         )
     }
-
-    const title = "Contact Us"
-    const placeholder = "Please let us know your inquiry."
+    /* This is our form that appears on the page. */
     return (
-        <div>
-            <form
-                onSubmit={handleSubmit}>
-                <h3>{title}</h3>
-                <div>
-                    <div>
-                        <label
-                            htmlFor="firstName">
-                            First Name
-                        </label>
-                        <input
-                            type="text"
-                            id="firstName"
-                            value={values.firstName}
-                            onChange={handleChange} />
-                        {errors.firstName === "" ? "" : <span>{errors.firstName}</span>}
-                    </div>
-                    <div>
-                        <label
-                            htmlFor="lastName">
-                            Last Name
-                        </label>
-                        <input
-                            type="text"
-                            id="lastName"
-                            value={values.lastName}
-                            onChange={handleChange} />
-                        {errors.lastName === "" ? "" : <span>{errors.lastName}</span>}
-                    </div>
-                </div>
-                <div>
-                    <label
-                        htmlFor="email">
-                        Email Address
-                    </label>
-                    <input
-                        type="email"
-                        id="email"
-                        value={values.email}
-                        onChange={handleChange} />
-                    {errors.email === "" ? "" : <span>{errors.email}</span>}
-                </div>
-                <div>
-                    <input
-                        type="text"
-                        id="message"
-                        placeholder={placeholder}
-                        value={values.message}
-                        onChange={handleChange} />
-                    {errors.message === "" ? "" : <span>{errors.message}</span>}
-                </div>
-                <button
-                    type="submit">
-                    Send
-                </button>
-            </form>
-        </div>
+        <form
+            onSubmit={handleSubmit}>
+            <h3>Contact Us</h3>
+            <div>
+                <Set
+                    error={errors.firstName}
+                    htmlFor='firstName'
+                    id='firstName'
+                    label='First Name'
+                    name='firstName'
+                    onChange={handleChange}
+                    placeholder='What is your first name?'
+                    value={values.firstName}
+                />
+                <Set
+                    error={errors.lastName}
+                    htmlFor='lastName'
+                    id='lastName'
+                    label='Last Name'
+                    name='lastName'
+                    onChange={handleChange}
+                    placeholder='What is your last name?'
+                    value={values.lastName} />
+            </div>
+            <Set
+                error={errors.email}
+                htmlFor='email'
+                id='email'
+                label='Email Address'
+                name='email'
+                onChange={handleChange}
+                placeholder='What is your email address?'
+                type2='email'
+                value={values.email} />
+            <Set
+                error={errors.message}
+                htmlFor='message'
+                id='message'
+                label='Message'
+                name='message'
+                onChange={handleChange}
+                placeholder='What is your inquiry?'
+                value={values.email} />
+            <button type="submit">
+                Submit
+            </button>
+        </form>
     )
 }
 export default Contact

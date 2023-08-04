@@ -6,19 +6,20 @@ import Set from './inputs/Set'
 
 const initialValues = {
     firstName: '',
-    lastName: "",
-    email: "",
+    lastName: '',
+    email: '',
 }
 const initialErrors = {
     firstName: '',
-    lastName: "",
-    email: "",
-    message: 
+    lastName: '',
+    email: '',
+    message: ''
 }
 const Contact = () => {
 
     const [values, setValue] = useState(initialValues)
-    const [errors, setError] = useState(initialErrors)
+    const [message, setMessage] = useState("")
+    const [errors] = useState(initialErrors)
     const [sent, isSent] = useState(false)
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -74,10 +75,10 @@ const Contact = () => {
     }
     /* This is our form that appears on the page. */
     return (
-        <form
+        <form className={styles.form}
             onSubmit={handleSubmit}>
             <h3>Contact Us</h3>
-            <div>
+            <div className={styles.group}>
                 <Set
                     error={errors.firstName}
                     htmlFor='firstName'
@@ -108,16 +109,20 @@ const Contact = () => {
                 placeholder='What is your email address?'
                 type2='email'
                 value={values.email} />
-            <Set
-                error={errors.message}
-                htmlFor='message'
-                id='message'
-                label='Message'
-                name='message'
-                onChange={handleChange}
-                placeholder='What is your inquiry?'
-                value={values.email} />
-            <button type="submit">
+            <div className={styles.wrapper}>
+                <label className={styles.label}
+                    htmlFor='message'>
+                    Message
+                </label>
+                <textarea className={styles.textarea}
+                    id='message'
+                    name='message'
+                    onChange={(e) => setMessage(e.target.value)}
+                    placeholder='What is your inquiry?'
+                    value={message} />
+            </div>
+            <button className={styles.button}
+                type="submit">
                 Submit
             </button>
         </form>

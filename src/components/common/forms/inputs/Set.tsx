@@ -1,8 +1,8 @@
 import styles from './Set.module.css'
 
-const Set = ({ error, htmlFor, id, label, name, onChange, placeholder, type2, value }: Partial<IComponent>) => {
+const Set = ({ className, error, htmlFor, id, label, name, onChange, placeholder, type2, value }: Partial<IComponent>) => {
     return (
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} ${className}`}>
             <label className={styles.label}
                 htmlFor={htmlFor}>
                 {label}

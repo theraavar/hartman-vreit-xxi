@@ -1,4 +1,5 @@
 import { ChangeEventHandler } from "react"
+import { ClassificationTypeNames } from "typescript"
 
 export { }
 
@@ -9,6 +10,7 @@ export { }
 declare global {
     interface IComponent {
         children: React.ReactNode
+        className: string
         display: string
         element: 'input' | 'textarea' | string | undefined
         error: string

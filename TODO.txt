@@ -4,6 +4,8 @@ Before production:
     Move all components around as much as possible to ensure no unintended overlap.
 
 TODO: Assign emailjs properly to the form component.
+TODO: Redesign how the errors come up. Like a popup note or something that is red.
+TODO: Prevent the popup from being annoying when submitting first then filling in the form.
 
 TODO: Create a modal not reliant on HeadlessUI (see link in Modal component file).
 TODO: Style modal component.
@@ -13,7 +15,5 @@ TODO: Setup our basic pages.
 TODO: Add some responsive on the height of the banner component.
 
 TODO: Ensure Card component is responsive if used outside of the Grid component?
-
-TODO: Ensure BetterLink component is responsive.
 
 TODO: Add animations to most major components.

@@ -26,6 +26,7 @@
 
 .form>h3 {
     color: var(--text);
+    padding: 2px 4px;
 }
 
 .group {
@@ -94,7 +95,14 @@
     border-radius: 8px;
     color: var(--text);
     padding-top: 2px;
+    margin-bottom: 4px;
     width: 50%;
+}
+
+.button:hover {
+    background-color: var(--gamma);
+    color: var(--alpha);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 640px) {

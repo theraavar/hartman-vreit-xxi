@@ -2,16 +2,14 @@ import Set from '@/components/common/forms/inputs/Set'
 import styles from './Page.module.css'
 import Contact from '@/components/common/forms/Contact'
 import BetterLink from '@/components/common/buttons/BetterLink'
+import Full from '@/components/headers/Full'
 
 
 const Page = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center h-full w-full bg-[color:var(--background-light)] px-[5%] pt-12">
-            <div className="h-full min-h-screen w-full flex flex-col items-center justify-around min-h-60">
+            <div className="h-full min-h-screen w-full relative flex flex-col items-center justify-around min-h-60">
                 <Contact />
-                <BetterLink
-                    display='BetterLink'
-                    link='/en/templates' />
                 <div className="bg-[color:var(--delta)] h-full flex flex-col items-center justify-center min-h-60">
                     <h3 className="text-[color:var(--black)]">Borders & Backgrounds</h3>
                     <div className="h-full w-full flex items-center justify-center min-h-60">

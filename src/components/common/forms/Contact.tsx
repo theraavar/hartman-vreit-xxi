@@ -53,13 +53,11 @@ const Contact = () => {
         }
         return isValid
     }
-
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         if (validate()) {
             if (!sent) {
                 //Handle our data in here.
-                alert(values)
                 isSent(true)
             }
         }
@@ -68,8 +66,8 @@ const Contact = () => {
     /* Once they send the form, this will appear instead. */
     if (sent) {
         return (
-            <div>
-
+            <div className={styles.form}>
+                <h3>Your message has been sent!</h3>
             </div>
         )
     }

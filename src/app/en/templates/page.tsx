@@ -1,11 +1,80 @@
+import Slideshow from '@/components/common/slideshows/Slideshow'
 import styles from './Page.module.css'
 import Contact from '@/components/common/forms/Contact'
+import Grid from '@/components/common/Grid'
+import Card from '@/components/common/cards/Card'
 
 const Page = () => {
+    const images = ["/background.jpg"]
     return (
         <div className="min-h-screen flex flex-col items-center justify-center h-full w-full bg-[color:var(--background-light)] px-[5%] pt-12">
             <div className="h-full min-h-screen w-full relative flex flex-col items-center justify-around min-h-60">
                 <Contact />
+                <div className="h-96" />
+                <Slideshow
+                    values={images} />
+                <div className="h-96" />
+                <Grid>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                    <Card
+                        image='/background.jpg'
+                        link='/'>
+                        This is the card text.
+                    </Card>
+                </Grid>
+                <div className="bg-[color:var(--background-dark)] m-8">
+                    <p>This is a paragraph element.</p>
+                    <h6>This is a header 6 element.</h6>
+                    <h5>This is a header 5 element.</h5>
+                    <h4>This is a header 4 element.</h4>
+                    <h3>This is a header 3 element.</h3>
+                    <h2>This is a header 2 element.</h2>
+                    <h1>This is a header 1 element.</h1>
+                </div>
                 <div className="bg-[color:var(--delta)] h-full flex flex-col items-center justify-center min-h-60">
                     <h3 className="text-[color:var(--black)]">Borders & Backgrounds</h3>
                     <div className="h-full w-full flex items-center justify-center min-h-60">
@@ -34,11 +103,5 @@ const Page = () => {
 export default Page
 
 /* 
-            <p>This is a paragraph element.</p>
-            <h6>This is a header 6 element.</h6>
-            <h5>This is a header 5 element.</h5>
-            <h4>This is a header 4 element.</h4>
-            <h3>This is a header 3 element.</h3>
-            <h2>This is a header 2 element.</h2>
-            <h1>This is a header 1 element.</h1>
+           
 */

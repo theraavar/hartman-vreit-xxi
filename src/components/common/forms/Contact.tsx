@@ -4,6 +4,7 @@ import styles from './Contact.module.css'
 import Set from './inputs/Set'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { Variants, motion } from 'framer-motion'
 
 const initialValues = {
     firstName: '',
@@ -16,6 +17,21 @@ const initialErrors = {
     email: '',
     message: ''
 }
+
+const scrollIn: Variants = {
+    hide: {
+        opacity: 0,
+        y: 250,
+    },
+    show: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1,
+        }
+    }
+}
+
 const Contact = () => {
     const [values, setValue] = useState(initialValues)
     const [message, setMessage] = useState("")
@@ -95,7 +111,11 @@ const Contact = () => {
     }
     /* This is our form that appears on the page. */
     return (
-        <form className={styles.form}
+        <motion.form className={styles.form}
+            initial="hide"
+            whileInView="show"
+            exit="hide"
+            variants={scrollIn}
             onSubmit={handleSubmit}>
             <h3>Contact Us</h3>
             <div className={styles.group}>
@@ -146,7 +166,7 @@ const Contact = () => {
                 type="submit">
                 Submit
             </button>
-        </form>
+        </motion.form>
     )
 }
 export default Contact

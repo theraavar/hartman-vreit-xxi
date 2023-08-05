@@ -3,6 +3,21 @@
 import styles from './Slideshow.module.css'
 import { useEffect, useState } from 'react'
 import Slide from './slides/Slide'
+import { motion, Variants } from 'framer-motion'
+
+const scrollIn: Variants = {
+    hide: {
+        opacity: 0,
+        y: 250,
+    },
+    show: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1,
+        }
+    }
+}
 
 const Slideshow = ({ values }: any) => {
     const [current, setCurrent] = useState(0)
@@ -33,9 +48,13 @@ const Slideshow = ({ values }: any) => {
     })
 
     return (
-        <div className={styles.slideshow}
+        <motion.div className={styles.slideshow}
             onMouseEnter={() => setPaused(true)}
-            onMouseLeave={() => setPaused(false)}>
+            onMouseLeave={() => setPaused(false)}
+            initial="hide"
+            whileInView="show"
+            exit="hide"
+            variants={scrollIn}>
             <div className={styles.slides}
                 style={{ transform: `translateX(-${current * 100}%)`, transition: 'translate 0.3' }}>
                 {values.map((value: any, index: number) => {
@@ -74,7 +93,7 @@ const Slideshow = ({ values }: any) => {
                     &#8250;
                 </button>
             </div>
-        </div>
+        </motion.div>
     )
 }
 export default Slideshow

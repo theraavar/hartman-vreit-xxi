@@ -1,10 +1,10 @@
 .header {
     align-items: center;
     background-color: var(--background-dark);
-    border-bottom: 2px solid var(--border);
+    border-bottom: 2px solid var(--beta);
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 20vh;
     justify-content: center;
     width: 100%;
 }

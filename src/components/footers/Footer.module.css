@@ -1,1 +1,27 @@
-.footer {}
+.footer {
+    align-items: center;
+    background-color: var(--background-dark);
+    border-top: 2px solid var(--beta);
+    display: flex;
+    justify-content: center;
+    padding: 4px 3%;
+    position: relative;
+    width: 100%;
+}
+
+.ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.link {}
+
+.copyright {
+    font-size: 0.6rem;
+    left: 24px;
+    opacity: 20%;
+    position: absolute;
+    top: 40%;
+}

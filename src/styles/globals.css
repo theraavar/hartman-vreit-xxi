@@ -80,6 +80,43 @@ h6 {
     a,
     p,
     span {
+        font-size: 1.05rem;
+    }
+
+    h1 {
+        font-size: 2.45rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 2.05rem;
+    }
+
+    h4 {
+        font-size: 1.85rem;
+    }
+
+    h5 {
+        font-size: 1.65rem;
+    }
+
+    h6 {
+        font-size: 1.45rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    div,
+    button,
+    input,
+    textarea,
+    a,
+    p,
+    span {
         font-size: 1.1rem;
     }
 
@@ -108,7 +145,44 @@ h6 {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
+
+    div,
+    button,
+    input,
+    textarea,
+    a,
+    p,
+    span {
+        font-size: 1.15rem;
+    }
+
+    h1 {
+        font-size: 2.55rem;
+    }
+
+    h2 {
+        font-size: 2.35rem;
+    }
+
+    h3 {
+        font-size: 2.15rem;
+    }
+
+    h4 {
+        font-size: 1.95rem;
+    }
+
+    h5 {
+        font-size: 1.75rem;
+    }
+
+    h6 {
+        font-size: 1.55rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
 
     div,
     button,
@@ -145,80 +219,6 @@ h6 {
     }
 }
 
-@media screen and (min-width: 1024px) {
-
-    div,
-    button,
-    input,
-    textarea,
-    a,
-    p,
-    span {
-        font-size: 1.3rem;
-    }
-
-    h1 {
-        font-size: 2.7rem;
-    }
-
-    h2 {
-        font-size: 2.5rem;
-    }
-
-    h3 {
-        font-size: 2.3rem;
-    }
-
-    h4 {
-        font-size: 2.1rem;
-    }
-
-    h5 {
-        font-size: 1.9rem;
-    }
-
-    h6 {
-        font-size: 1.7rem;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-
-    div,
-    button,
-    input,
-    textarea,
-    a,
-    p,
-    span {
-        font-size: 1.4rem;
-    }
-
-    h1 {
-        font-size: 2.8rem;
-    }
-
-    h2 {
-        font-size: 2.6rem;
-    }
-
-    h3 {
-        font-size: 2.4rem;
-    }
-
-    h4 {
-        font-size: 2.2rem;
-    }
-
-    h5 {
-        font-size: 2.0rem;
-    }
-
-    h6 {
-        font-size: 1.8rem;
-    }
-}
-
 @media screen and (min-width: 1536px) {
 
     div,
@@ -228,30 +228,30 @@ h6 {
     a,
     p,
     span {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     h1 {
-        font-size: 2.9rem;
+        font-size: 2.65rem;
     }
 
     h2 {
-        font-size: 2.7rem;
+        font-size: 2.45rem;
     }
 
     h3 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     h4 {
-        font-size: 2.3rem;
+        font-size: 2.05rem;
     }
 
     h5 {
-        font-size: 2.1rem;
+        font-size: 1.85rem;
     }
 
     h6 {
-        font-size: 1.9rem;
+        font-size: 1.65rem;
     }
 }

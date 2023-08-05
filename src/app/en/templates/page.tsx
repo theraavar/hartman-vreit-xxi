@@ -1,9 +1,5 @@
-import Set from '@/components/common/forms/inputs/Set'
 import styles from './Page.module.css'
 import Contact from '@/components/common/forms/Contact'
-import BetterLink from '@/components/common/buttons/BetterLink'
-import Full from '@/components/headers/Full'
-
 
 const Page = () => {
     return (

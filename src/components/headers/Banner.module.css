@@ -1,7 +1,7 @@
 .header {
     align-items: center;
     background-color: var(--background-dark);
-    border-bottom: 2px solid var(--beta);
+    border-bottom: 3px solid var(--beta);
     display: flex;
     flex-direction: column;
     height: 20vh;

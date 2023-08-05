@@ -89,6 +89,18 @@
     /* font-size: 1rem; */
 }
 
+.span {
+    background-color: gray;
+    border: 2px solid darkred;
+    color: red;
+    font-size: 0.7rem;
+    min-width: max-content;
+    padding: 2px;
+    position: absolute;
+    top: -15px;
+    left: 60%;
+}
+
 .button {
     background-color: var(--alpha);
     border: 2px solid var(--delta);

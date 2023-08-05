@@ -2,12 +2,10 @@ Before production:
 
     Check the metadata for each page; ensure it is correct.
     Move all components around as much as possible to ensure no unintended overlap.
+    Add enviroment variables to Vercel.
 
-TODO: Assign emailjs properly to the form component.
-TODO: Redesign how the errors come up. Like a popup note or something that is red.
-TODO: Prevent the popup from being annoying when submitting first then filling in the form.
+TODO: Enable reCaptcha on the form?
 TODO: Overwrite the default error messages for email input.
-TODO: Add error message to the message textarea. 
 
 TODO: Create a modal not reliant on HeadlessUI (see link in Modal component file).
 TODO: Style modal component.

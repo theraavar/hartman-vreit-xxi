@@ -1,7 +1,7 @@
 import styles from './Footer.module.css'
 import Link from "next/link"
 
-const Footer = ({ children }: { children: React.ReactNode }){
+const Footer = ({ children }: { children: React.ReactNode }) => {
     return (
         <footer className={styles.footer}>
             <div>

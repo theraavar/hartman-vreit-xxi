@@ -3,7 +3,9 @@
     background-color: var(--background-dark);
     border-top: 3px solid var(--beta);
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: start;
+    min-height: fit-content;
     padding: 4px 3%;
     position: relative;
     width: 100%;
@@ -16,12 +18,61 @@
     width: 50%;
 }
 
-.link {}
+.link {
+    padding: 2px 4px;
+}
 
 .copyright {
-    font-size: 0.6rem;
-    left: 24px;
-    opacity: 20%;
+    font-size: 0.4rem;
+    right: 8px;
+    opacity: 40%;
     position: absolute;
     top: 40%;
+}
+
+@media screen and (min-width: 640px) {
+    .ul {
+        width: 55%;
+    }
+
+    .copyright {
+        font-size: 0.45rem;
+        right: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ul {
+        width: 60%;
+    }
+
+    .copyright {
+        font-size: 0.5rem;
+        right: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        justify-content: center;
+    }
+
+    .copyright {
+        font-size: 0.55rem;
+        right: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .copyright {
+        font-size: 0.6rem;
+        right: 20px;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .copyright {
+        font-size: 0.65rem;
+        right: 24px;
+    }
 }

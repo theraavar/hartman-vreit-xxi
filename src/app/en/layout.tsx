@@ -3,7 +3,7 @@ import Banner from "@/components/headers/Banner"
 import Main from "@/components/Main"
 import Footer from "@/components/footers/Footer"
 
-const Layout = ({ children }: { children: React.ReactNode }){
+const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <Vessel>
             <Banner>

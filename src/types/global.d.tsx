@@ -23,7 +23,7 @@ declare global {
         onChange: ChangeEventHandler<HTMLInputElement>
         placeholder: string
         target: 'internal' | 'external' | undefined
-        title: string
+        title: string | React.ReactNode
         type1: 'button' | 'submit' | 'reset' | undefined
         type2: 'button' | 'checkbox' | 'color' | 'date' | 'datetime-local' | 'email' | 'file' | 'hidden' | 'image' | 'month' | 'number' | 'password' | 'radio' | 'range' | 'reset' | 'search' | 'submit' | 'tel' | 'text' | 'time' | 'url' | 'week' | string | undefined
         value: string | number | undefined

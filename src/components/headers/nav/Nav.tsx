@@ -25,18 +25,26 @@ const Nav = () => {
             {/* This is our desktop navigation bar. */}
             <div className={styles.desktop}>
                 <ul className={styles.menu}>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/">About</Link></li>
-                    <ul className={styles.submenu}>
-                        <li><Link href="/">Hartman VReit XXI</Link></li>
-                        <li><Link href="/">Our Executives</Link></li>
-                    </ul>
-                    <li><Link href="/">Lease a Space</Link></li>
-                    <ul className={styles.submenu}>
-                        <li><Link href="/">Properties</Link></li>
-                        <li><Link href="/">By Location</Link></li>
-                    </ul>
-                    <li><Link href="/">Contact Us</Link></li>
+                    <li className={styles.li}><Link className={styles.link} href="/">Home</Link></li>
+                    <li className={`${styles.li} ${styles.dropdown}`}>About
+                        <ul className={styles.submenu}>
+                            <li className={styles.li}><Link className={styles.link} href="/en/about/hartman-vreit-xxi">Hartman VReit XXI</Link></li>
+                            <li className={styles.li}><Link className={styles.link} href="/en/about/executives">Our Executives</Link></li>
+                        </ul>
+                    </li>
+                    <li className={`${styles.li} ${styles.dropdown}`}>Lease a Space
+                        <ul className={styles.submenu}>
+                            <li className={styles.li}><Link className={styles.link} href="/en/leasing/properties">Properties</Link></li>
+                            <li className={`${styles.li} ${styles.dropdown}`}>By Location
+                                <ul className={styles.aux}>
+                                    <li className={styles.li}><Link className={styles.link} href="/en/leasing/properties/dallas">Dallas</Link></li>
+                                    <li className={styles.li}><Link className={styles.link} href="/en/leasing/properties/houston">Houston</Link></li>
+                                    <li className={styles.li}><Link className={styles.link} href="/en/leasing/properties/san-antonio">San Antonio</Link></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className={styles.li}><Link className={styles.link} href="/en/support/contact-us">Contact Us</Link></li>
                 </ul>
             </div>
         </nav>

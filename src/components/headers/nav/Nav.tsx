@@ -25,6 +25,7 @@ const Nav = () => {
                         quality={100}
                         priority
                         style={{ objectFit: 'contain' }} />
+                    <h4>Hartman VReit XXI</h4>
                 </Link>
                 <span className={`${styles.hamburger} ${display ? styles.active : ""} `}
                     onClick={() => setDisplay(!display)}>
@@ -50,6 +51,7 @@ const Nav = () => {
                         quality={100}
                         priority
                         style={{ objectFit: 'contain' }} />
+                    <h4>Hartman VReit XXI</h4>
                 </Link>
                 <ul className={styles.menu}>
                     <li>

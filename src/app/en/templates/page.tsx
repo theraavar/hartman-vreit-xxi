@@ -3,6 +3,11 @@ import styles from './Page.module.css'
 import Contact from '@/components/common/forms/Contact'
 import Grid from '@/components/common/Grid'
 import Card from '@/components/common/cards/Card'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Templates'
+}
 
 const Page = () => {
     const images = ["/background.jpg"]

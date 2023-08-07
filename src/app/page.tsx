@@ -4,7 +4,6 @@ import Footer from "@/components/footers/Footer"
 import Full from "@/components/headers/Full"
 import Title from "@/components/headers/Title"
 import Nav from "@/components/headers/nav/Nav"
-import { motion } from "framer-motion"
 
 const Page = () => {
   return (

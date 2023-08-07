@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.logo {
+    margin-right: auto;
+}
+
 /* ----- */
 .mobile {
     align-items: center;
@@ -48,30 +52,9 @@
 }
 
 /* ----- */
-
 .menu {
-    height: 4rem;
-}
-
-.menu>li {
-    background-color: transparent;
-    border-bottom: none;
-    border-top: none;
-    display: block;
-    float: left;
-    position: relative;
-}
-
-.menu li:hover {
-    border-bottom: 2px solid purple;
-    border-top: 2px solid darkviolet;
-    background: var(--gamma);
-}
-
-.menu li:hover>a {
-    color: var(--alpha);
-    border-left: 3px solid green;
-    border-radius: 5px 0 0;
+    /* Height is required so our navigation bar isn't humongous. */
+    height: auto;
 }
 
 .menu,
@@ -81,42 +64,25 @@
     padding: 0;
 }
 
-.menu .link {
-    border-left: 3px solid rgba(0, 0, 0, 0);
-    color: var(--text);
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.menu .submenu li:hover a {
-    border-left: 3px solid #454545;
-    border-radius: 0;
-    color: #ffffff;
-}
-
-.li {
+.menu li {
     background-color: var(--foreground);
-    border-bottom: 2px solid red;
-    border-top: 2px solid darkred;
-    min-width: 9rem;
+    border-bottom: 2px solid cyan;
+    border-top: 2px solid darkcyan;
+    min-width: 10rem;
 }
 
-.li:hover .submenu,
-.li:focus .submenu {
-    max-height: 2000px;
-    z-index: 10;
+.menu>li {
+    display: block;
+    float: left;
+    position: relative;
 }
 
-.li:hover .submenu li,
-.li:focus .submenu li {
-    opacity: 1;
-    transform: none;
+.menu>li:first-child {
+    border-radius: 8px 0 0 8px;
 }
 
-.link {
-    height: 100%;
-    width: 100%;
+.menu>li:last-child {
+    border-radius: 0 8px 8px 0;
 }
 
 .submenu {
@@ -126,40 +92,13 @@
     position: absolute;
     top: 100%;
     z-index: 0;
+
 }
 
 .submenu>li {
     opacity: 0;
-    transform: translateX(-100px);
-    transition: opacity .4s, transform 1s;
-}
-
-.aux {}
-
-/* https://www.script-tutorials.com/whirling-dropdown-menu/ */
-
-.li:hover .submenu li:nth-child(1) {
-    transition-delay: 0s;
-}
-
-.li:hover .submenu li:nth-child(2) {
-    transition-delay: 100ms;
-}
-
-.li:hover .submenu li:nth-child(3) {
-    transition-delay: 200ms;
-}
-
-.submenu li:nth-child(1) {
-    transition-delay: 0ms;
-}
-
-.submenu li:nth-child(2) {
-    transition-delay: 100ms;
-}
-
-.submenu li:nth-child(3) {
-    transition-delay: 200ms;
+    transform: rotateY(90deg);
+    transition: opacity .4s, transform .5s;
 }
 
 @media screen and (min-width: 640px) {

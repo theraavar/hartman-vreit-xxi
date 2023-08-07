@@ -102,6 +102,16 @@
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 360px) {
+    .textarea {
+        min-width: 10rem;
+    }
+
+    .span {
+        min-width: min-content;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .group {
         flex-direction: column;

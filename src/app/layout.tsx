@@ -4,10 +4,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://website.com'
+    canonical: 'https://www.hartman-properties.com'
   },
   authors: [{ name: 'ruyla', url: 'https://github.com/ruyla' }],
-  category: 'Category',
+  category: 'Commercial',
   colorScheme: 'light',
   creator: '',
   description: 'A single-page application built with Next13.',
@@ -17,16 +17,16 @@ export const metadata: Metadata = {
   },
   keywords: ['HTML', 'CSS', 'JavaScript', 'JS', 'React', 'Next.js', 'Tailwind', 'TailwindCSS', 'MongoDB'],
   manifest: '',
-  metadataBase: new URL('https://website.com'),
+  metadataBase: new URL('https://www.hartman-properties.com'),
   openGraph: {
-    title: 'Title',
-    description: 'Description',
-    url: 'https://website.com',
-    siteName: 'Site Name',
+    title: 'Hartman VReit XXI',
+    description: 'One of the leading commercial real estate management companies in Texas.',
+    url: 'https://www.hartman-properties.com',
+    siteName: 'Hartman VReit XXI',
     locale: 'en_US',
     type: 'website',
   },
-  publisher: '',
+  publisher: 'Vercel',
   referrer: 'origin',
   robots: {
     index: false,
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   themeColor: '#FFFFFF',
   title: {
-    default: 'Title',
-    template: '%s | Title'
+    default: 'Hartman VReit XXI',
+    template: '%s | Hartman VReit XXI'
   },
   viewport: {
     initialScale: 1,

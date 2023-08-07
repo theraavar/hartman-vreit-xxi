@@ -15,13 +15,17 @@ const Nav = () => {
         <nav className={styles.nav}>
             {/* This is our mobile navigation bar. */}
             <div className={styles.mobile}>
-                <Image className={styles.logo}
-                    src="/logo.png"
-                    alt="A logo image."
-                    height={64}
-                    width={64}
-                    quality={100}
-                    style={{ objectFit: 'contain' }} />
+                <Link className={styles.logo}
+                    href="/">
+                    <Image
+                        src="/logo.png"
+                        alt="A logo image."
+                        height={64}
+                        width={64}
+                        quality={100}
+                        priority
+                        style={{ objectFit: 'contain' }} />
+                </Link>
                 <span className={styles.burgerIcon}
                     onClick={() => isOpen(!open)}>
                     <span className={styles.burgerLine} />
@@ -34,13 +38,17 @@ const Nav = () => {
             </div>
             {/* This is our desktop navigation bar. */}
             <div className={styles.desktop}>
-                <Image className={styles.logo}
-                    src="/logo.png"
-                    alt="A logo image."
-                    height={64}
-                    width={64}
-                    quality={100}
-                    style={{ objectFit: 'contain' }} />
+                <Link className={styles.logo}
+                    href="/">
+                    <Image
+                        src="/logo.png"
+                        alt="A logo image."
+                        height={64}
+                        width={64}
+                        quality={100}
+                        priority
+                        style={{ objectFit: 'contain' }} />
+                </Link>
                 <ul className={styles.menu}>
                     <li>
                         <Link className={styles.link} href="/">Home</Link>

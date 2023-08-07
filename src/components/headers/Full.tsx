@@ -30,6 +30,7 @@ const Full = ({ children, title }: Partial<IComponent>) => {
                 quality={100}
                 fill
                 sizes="100vw"
+                priority
                 style={{
                     objectFit: 'cover',
                 }}

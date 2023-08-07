@@ -27,7 +27,7 @@
 .label {
     color: var(--beta);
     font-size: 1.6rem;
-    left: 4px;
+    left: 0.4rem;
     position: absolute;
     top: 8px;
 }
@@ -41,7 +41,7 @@
     height: 32px;
     min-width: 20rem;
     outline: none;
-    padding-left: 4px;
+    padding-left: 0.4rem;
     width: 100%;
 }
 

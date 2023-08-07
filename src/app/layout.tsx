@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { MEDIEVAL_SHARP } from '../styles/fonts'
+import { RALEWAY } from '../styles/fonts'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={MEDIEVAL_SHARP.className}>
+      <body className={RALEWAY.className}>
         {children}
       </body>
     </html>

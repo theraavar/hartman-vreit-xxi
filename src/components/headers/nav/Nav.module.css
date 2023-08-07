@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-.burgerIcon {
+.hamburger {
     align-items: center;
     /* border: 2px solid var(--background-light); */
     border-radius: 12px;
@@ -35,11 +35,23 @@
     width: 2rem;
 }
 
-.burgerIcon:active {
+.active>.bar:nth-child(1) {
+    transform: translateY(8px) rotate(-45deg);
+}
+
+.active>.bar:nth-child(2) {
+    opacity: 0;
+}
+
+.active>.bar:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+}
+
+.hamburger:active {
     transform: scale(0.8);
 }
 
-.burgerLine {
+.bar {
     background-color: var(--background-light);
     border-radius: 8px;
     height: 0.25rem;
@@ -52,67 +64,41 @@
 }
 
 /* ----- */
-.menu {
-    /* Height is required so our navigation bar isn't humongous. */
-    height: auto;
+
+
+.dropdown>.submenu>li:nth-child(1),
+.dropdown>.aux>li:nth-child(1) {
+    transition-delay: 100ms;
 }
 
-.menu,
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.dropdown>.submenu>li:nth-child(2),
+.dropdown>.aux>li:nth-child(2) {
+    transition-delay: 200ms;
 }
 
-.menu li {
-    background-color: var(--foreground);
-    border-bottom: 2px solid cyan;
-    border-top: 2px solid darkcyan;
-    min-width: 10rem;
+.dropdown>.submenu>li:nth-child(3),
+.dropdown>.aux>li:nth-child(3) {
+    transition-delay: 300ms;
 }
 
-.menu>li {
-    display: block;
-    float: left;
-    position: relative;
+.dropdown>.submenu>li:nth-child(4),
+.dropdown>.aux>li:nth-child(4) {
+    transition-delay: 400ms;
 }
 
-.menu>li:first-child {
-    border-radius: 8px 0 0 8px;
+.dropdown>.submenu>li:nth-child(5),
+.dropdown>.aux>li:nth-child(5) {
+    transition-delay: 500ms;
 }
 
-.menu>li:last-child {
-    border-radius: 0 8px 8px 0;
+.dropdown>.submenu>li:nth-child(6),
+.dropdown>.aux>li:nth-child(6) {
+    transition-delay: 100ms;
 }
 
-.dropdown:hover>.submenu>li {
-    opacity: 1;
-    transform: none
-}
+@media screen and (min-width: 640px) {}
 
-.submenu {
-    left: 0;
-    max-height: 0;
-    perspective: 400px;
-    position: absolute;
-    top: 100%;
-    z-index: 0;
-
-}
-
-.submenu>li {
-    opacity: 0;
-    transform: rotateY(90deg);
-    transition: opacity .4s, transform .5s;
-}
-
-.aux>li {
-    opacity: 0;
-    transform: translateX(-200px);
-    transition: opacity .5s, transform 1s;
-}
-
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
     .mobile {
         display: none;
     }
@@ -125,9 +111,80 @@
         position: relative;
         width: 100%;
     }
-}
 
-@media screen and (min-width: 768px) {}
+    .menu {
+        /* Height is required so our navigation bar isn't humongous. */
+        height: auto;
+    }
+
+    .menu,
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li {
+        background-color: var(--foreground);
+        border-bottom: 2px solid cyan;
+        border-top: 2px solid darkcyan;
+        min-width: 10rem;
+        padding: 1rem 0;
+    }
+
+    .menu>li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+
+    .menu>li:first-child {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .menu>li:last-child {
+        border-radius: 0 8px 8px 0;
+    }
+
+    .dropdown:hover>.submenu>li {
+        opacity: 1;
+        transform: none
+    }
+
+    .dropdown:hover>.aux>li {
+        opacity: 1;
+        transform: translateX(1rem);
+    }
+
+    .submenu {
+        left: 0;
+        max-height: 0;
+        perspective: 400px;
+        position: absolute;
+        top: 100%;
+        z-index: 0;
+    }
+
+    .submenu>li {
+        opacity: 0;
+        transform: translateY(3rem);
+        transition: opacity .4s, transform .5s;
+    }
+
+    .aux {
+        left: 0;
+        max-height: 0;
+        perspective: 400px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .aux>li {
+        opacity: 0;
+        transform: translateY(3rem);
+        transition: opacity .5s, transform .5s;
+    }
+}
 
 @media screen and (min-width: 1024px) {}
 

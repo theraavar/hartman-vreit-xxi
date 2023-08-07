@@ -6,10 +6,10 @@ import { useState } from 'react'
 import Image from 'next/image'
 
 const Nav = () => {
-    const [open, isOpen] = useState(false)
+    const [display, setDisplay] = useState(false)
 
     if (typeof window !== 'undefined') {
-        document.addEventListener('keyup', () => { isOpen(false) })
+        document.addEventListener('keyup', () => { setDisplay(false) })
     }
     return (
         <nav className={styles.nav}>
@@ -26,15 +26,17 @@ const Nav = () => {
                         priority
                         style={{ objectFit: 'contain' }} />
                 </Link>
-                <span className={styles.burgerIcon}
-                    onClick={() => isOpen(!open)}>
-                    <span className={styles.burgerLine} />
-                    <span className={styles.burgerLine} />
-                    <span className={styles.burgerLine} />
+                <span className={`${styles.hamburger} ${display ? styles.active : ""} `}
+                    onClick={() => setDisplay(!display)}>
+                    <span className={styles.bar} />
+                    <span className={styles.bar} />
+                    <span className={styles.bar} />
                 </span>
-                <div className={styles.wrapper}>
-
-                </div>
+                {!display ? "" :
+                    <ul className={styles.menu}>
+                        <li>Item One</li>
+                    </ul>
+                }
             </div>
             {/* This is our desktop navigation bar. */}
             <div className={styles.desktop}>

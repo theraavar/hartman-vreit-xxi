@@ -136,6 +136,8 @@
 
 .aux {}
 
+/* https://www.script-tutorials.com/whirling-dropdown-menu/ */
+
 .li:hover .submenu li:nth-child(1) {
     transition-delay: 0s;
 }

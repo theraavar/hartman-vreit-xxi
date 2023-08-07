@@ -12,8 +12,4 @@ TODO: Style modal component.
 
 TODO: Setup our basic pages.
 
-TODO: Add some responsive on the height of the banner component.
-
 TODO: Ensure Card component is responsive if used outside of the Grid component?
-
-TODO: Add animations to most major components.

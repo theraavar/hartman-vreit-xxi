@@ -2,6 +2,7 @@
 
 import { motion, Variants } from 'framer-motion'
 import styles from './Full.module.css'
+import Image from 'next/image'
 
 const fadeIn: Variants = {
     hide: {
@@ -23,6 +24,16 @@ const Full = ({ children, title }: Partial<IComponent>) => {
             whileInView="show"
             exit="hide"
             variants={fadeIn}>
+            <Image className={styles.image}
+                src="/background.jpg"
+                alt="A background image."
+                quality={100}
+                fill
+                sizes="100vw"
+                style={{
+                    objectFit: 'cover',
+                }}
+            />
             {title}
             {children}
         </motion.header>

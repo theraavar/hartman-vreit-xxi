@@ -40,7 +40,7 @@
 }
 
 .active>.bar:nth-child(1) {
-    transform: translateY(8px) rotate(-45deg);
+    transform: translateY(9px) rotate(-45deg);
 }
 
 .active>.bar:nth-child(2) {
@@ -48,7 +48,7 @@
 }
 
 .active>.bar:nth-child(3) {
-    transform: translateY(-8px) rotate(45deg);
+    transform: translateY(-9px) rotate(45deg);
 }
 
 .hamburger:active {
@@ -62,12 +62,15 @@
     width: 2rem;
 }
 
+
+
 /* ----- */
 .desktop {
     display: none;
 }
 
 /* ----- */
+
 
 
 .dropdown>.submenu>li:nth-child(1),
@@ -132,8 +135,8 @@
         background-color: var(--foreground);
         border-bottom: 2px solid cyan;
         border-top: 2px solid darkcyan;
-        min-width: 10rem;
-        padding: 1rem 0;
+        min-width: 5rem;
+        padding: 0.5rem 0.5rem;
     }
 
     .menu>li {
@@ -202,7 +205,12 @@
     }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .menu li {
+        min-width: 10rem;
+        padding: 1rem 0;
+    }
+}
 
 @media screen and (min-width: 1280px) {}
 

@@ -34,9 +34,44 @@ const Nav = () => {
                     <span className={styles.bar} />
                 </span>
                 {!display ? "" :
-                    <ul className={styles.menu}>
-                        <li>Item One</li>
-                    </ul>
+                    <div className={styles.wrapper}>
+                        <ul className={styles.menu}>
+                            <li>
+                                <Link className={styles.link} href="/">Home</Link>
+                            </li>
+                            <li className={`${styles.dropdown}`}>About
+                                <ul className={styles.submenu}>
+                                    <li>
+                                        <Link className={styles.link} href="/en/about/hartman-vreit-xxi">Hartman VReit XXI</Link>
+                                    </li>
+                                    <li>
+                                        <Link className={styles.link} href="/en/about/executives">Our Executives</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className={`${styles.dropdown}`}>Lease a Space
+                                <ul className={styles.submenu}>
+                                    <li>
+                                        <Link className={styles.link} href="/en/leasing/properties">Properties</Link>
+                                    </li>
+                                    <li className={`${styles.dropdown}`}>By Location
+                                        <ul className={styles.aux}>
+                                            <li>
+                                                <Link className={styles.link} href="/en/leasing/properties/dallas">Dallas</Link>
+                                            </li>
+                                            <li>
+                                                <Link className={styles.link} href="/en/leasing/properties/houston">Houston</Link>
+                                            </li>
+                                            <li>
+                                                <Link className={styles.link} href="/en/leasing/properties/san-antonio">San Antonio</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li ><Link className={styles.link} href="/en/support/contact-us">Contact Us</Link></li>
+                        </ul>
+                    </div>
                 }
             </div>
             {/* This is our desktop navigation bar. */}

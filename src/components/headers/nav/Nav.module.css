@@ -62,16 +62,12 @@
     width: 2rem;
 }
 
-
-
 /* ----- */
 .desktop {
     display: none;
 }
 
 /* ----- */
-
-
 
 .dropdown>.submenu>li:nth-child(1),
 .dropdown>.aux>li:nth-child(1) {
@@ -145,12 +141,28 @@
         position: relative;
     }
 
+    .menu>li:hover {
+        background-color: var(--background-light);
+        color: var(--alpha);
+    }
+
+    .menu>li:hover>.submenu {
+        color: var(--text);
+    }
+
     .menu>li:first-child {
         border-radius: 8px 0 0 8px;
     }
 
     .menu>li:last-child {
         border-radius: 0 8px 8px 0;
+    }
+
+    .link {
+        cursor: pointer;
+        display: inline-block;
+        height: 100%;
+        width: 100%;
     }
 
     .dropdown:hover>.submenu>li {

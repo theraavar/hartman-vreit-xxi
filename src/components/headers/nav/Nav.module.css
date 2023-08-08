@@ -142,7 +142,7 @@
     }
 
     .menu>li:hover {
-        background-color: var(--background-light);
+        background-color: var(--gamma);
         color: var(--alpha);
     }
 
@@ -201,6 +201,15 @@
         border-radius: 0 0 8px 8px;
     }
 
+    .submenu>li:hover {
+        background-color: var(--gamma);
+        color: var(--alpha);
+    }
+
+    .submenu>li:hover>.aux {
+        color: var(--text);
+    }
+
     .aux {
         left: 0;
         max-height: 0;
@@ -214,6 +223,11 @@
         opacity: 0;
         transform: translateY(3rem);
         transition: opacity .5s, transform .5s;
+    }
+
+    .aux>li:hover {
+        background-color: var(--gamma);
+        color: var(--alpha);
     }
 }
 

@@ -15,8 +15,6 @@ TODO: Setup our basic pages.
 
 TODO: Ensure Card component is responsive if used outside of the Grid component?
 
-TODO: Add a call to action on the homepage to help direct people towards leasing
-
 TODO: Fix the generateMetadata functions in our dynamic routes
 
 TODO: Fix the slideshow dots not working properly
@@ -31,4 +29,10 @@ TODO: Add people: {
     title:
 } to the data for properties and map a display out for when we add people to the buildings for easier contact.
 
-TODO: Add TENANT PORTAL -> Work Orders (IMPAK) and Payments to Nav component. Maybe change contact us to support and put them under there?
+TODO: Update which spaces are currently available
+
+TODO: Add in a search option on the properties page for price, location, property type
+
+TODO: Add informaton about surrounding attractions for each building?
+
+TODO: Client testimonials for each property; will help sell and show quality of service

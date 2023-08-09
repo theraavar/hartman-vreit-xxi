@@ -23,7 +23,7 @@ const Footer = ({ children }: { children: React.ReactNode }) => {
             <motion.ul className={styles.ul}
                 initial="hide"
                 whileInView="show"
-                exit="hide"
+                exit="show"
                 variants={scrollIn}>
                 <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
                 <Link className={styles.link} href="en/terms-of-use">Terms of Use</Link>

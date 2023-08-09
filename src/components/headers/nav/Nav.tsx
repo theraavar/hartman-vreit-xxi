@@ -69,7 +69,23 @@ const Nav = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li ><Link className={styles.link} href="/en/support/contact-us">Contact Us</Link></li>
+                            <li className={`${styles.dropdown}`}>Support
+                                <ul className={styles.submenu}>
+                                    <li>
+                                        <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
+                                    </li>
+                                    <li className={`${styles.dropdown}`}>Tenants
+                                        <ul className={styles.aux}>
+                                            <li>
+                                                <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
+                                            </li>
+                                            <li>
+                                                <Link className={styles.link} href="/en/support/payments">Payments</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 }
@@ -122,7 +138,23 @@ const Nav = () => {
                             </li>
                         </ul>
                     </li>
-                    <li ><Link className={styles.link} href="/en/support/contact-us">Contact Us</Link></li>
+                    <li className={`${styles.dropdown}`}>Support
+                        <ul className={styles.submenu}>
+                            <li>
+                                <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
+                            </li>
+                            <li className={`${styles.dropdown}`}>Tenants
+                                <ul className={styles.aux}>
+                                    <li>
+                                        <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
+                                    </li>
+                                    <li>
+                                        <Link className={styles.link} href="/en/support/payments">Payments</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>

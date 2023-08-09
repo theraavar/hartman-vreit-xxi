@@ -10,6 +10,10 @@ const scrollIn: Variants = {
         opacity: 0,
         y: 250,
     },
+    leave: {
+        opacity: 0,
+        y: -250
+    },
     show: {
         opacity: 1,
         y: 0,
@@ -24,7 +28,7 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
         <motion.div className={styles.div}
             initial="hide"
             whileInView="show"
-            exit="hide"
+            exit="leave"
             variants={scrollIn}>
             <Link className={styles.card}
                 href={`${link}`}>

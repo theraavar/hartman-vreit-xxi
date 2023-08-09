@@ -76,7 +76,7 @@ const Slideshow = ({ values }: any) => {
             </div>
             {/* Dots */}
             <div className={`${styles.wrapper} ${styles.dots}  bg-black/70`}>
-                {values.map((index: number) => {
+                {values.map((value: any, index: number) => {
                     return (
                         <button className={`${index === current ? styles.current : ""} ${styles.dot}`}
                             key={index}

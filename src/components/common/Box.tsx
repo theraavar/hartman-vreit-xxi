@@ -7,7 +7,7 @@ interface IBox {
     flexDirection: "column" | "row" | undefined
 }
 
-const Box = ({ children, flexDirection }: Partial<IBox>) => {
+const Box = ({ children, flexDirection = 'column' }: Partial<IBox>) => {
     return (
         <div className={styles.box}
             style={{ flexDirection: flexDirection }}>

@@ -3,6 +3,8 @@ import Slideshow from '@/components/common/slideshows/Slideshow'
 import { PROPERTIES } from '@/data/Properties'
 import { ResolvingMetadata } from 'next'
 import styles from './Page.module.css'
+import Box from '@/components/common/Box'
+import Link from 'next/link'
 
 type Props = {
     params: { property: string }
@@ -48,6 +50,15 @@ const Page = ({ params, searchParams }: Props) => {
                             key={index}>
                             <Slideshow
                                 values={value.images} />
+                            <Box>
+                                <h4>{value.displayName}</h4>
+                                <h6>{value.address.street}<br />{value.address.city}, {value.address.state} {value.address.zipCode}</h6>
+                            </Box>
+                            <Box>
+                                <h5>Resources</h5>
+                                <Link href={`${value.links.loopnet}`}>Loopnet</Link>
+                                <Link href={`${value.links.flyer}`}>Property Flyer</Link>
+                            </Box>
                         </div>
                     )
                 }

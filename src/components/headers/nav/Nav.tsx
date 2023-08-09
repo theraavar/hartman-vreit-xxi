@@ -18,7 +18,7 @@ const Nav = () => {
                 <Link className={styles.logo}
                     href="/">
                     <Image
-                        src="/logo.png"
+                        src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/logo.png"
                         alt="A logo image."
                         height={64}
                         width={64}
@@ -79,7 +79,7 @@ const Nav = () => {
                 <Link className={styles.logo}
                     href="/">
                     <Image
-                        src="/logo.png"
+                        src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/logo.png"
                         alt="A logo image."
                         height={64}
                         width={64}

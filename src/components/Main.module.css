@@ -2,10 +2,11 @@
     align-items: center;
     background-color: var(--background-light);
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    min-height: fit-content;
+    min-height: max-content;
     padding: 0 3%;
     width: 100%;
 }

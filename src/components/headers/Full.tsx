@@ -17,7 +17,7 @@ const fadeIn: Variants = {
     }
 }
 
-const Full = ({ children, title }: Partial<IComponent>) => {
+const Full = ({ children }: Partial<IComponent>) => {
     return (
         <motion.header className={styles.header}
             initial="hide"
@@ -25,7 +25,7 @@ const Full = ({ children, title }: Partial<IComponent>) => {
             exit="hide"
             variants={fadeIn}>
             <Image className={styles.image}
-                src="/background.jpg"
+                src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg"
                 alt="A background image."
                 quality={100}
                 fill
@@ -35,7 +35,6 @@ const Full = ({ children, title }: Partial<IComponent>) => {
                     objectFit: 'cover',
                 }}
             />
-            {title}
             {children}
         </motion.header>
     )

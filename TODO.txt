@@ -14,3 +14,11 @@ TODO: Style modal component.
 TODO: Setup our basic pages.
 
 TODO: Ensure Card component is responsive if used outside of the Grid component?
+
+TODO: Add a call to action on the homepage to help direct people towards leasing
+
+TODO: Fix the generateMetadata functions in our dynamic routes
+
+TODO: Fix the slideshow dots not working properly
+TODO: Add a transition on the slideshow to switch images so it's smoother?
+TODO: Try to preload the next image?

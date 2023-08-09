@@ -22,3 +22,13 @@ TODO: Fix the generateMetadata functions in our dynamic routes
 TODO: Fix the slideshow dots not working properly
 TODO: Add a transition on the slideshow to switch images so it's smoother?
 TODO: Try to preload the next image?
+
+TODO: Add people: {
+    first:
+    last:
+    phone:
+    email:
+    title:
+} to the data for properties and map a display out for when we add people to the buildings for easier contact.
+
+TODO: Add TENANT PORTAL -> Work Orders (IMPAK) and Payments to Nav component.

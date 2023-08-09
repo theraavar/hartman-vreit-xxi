@@ -31,4 +31,4 @@ TODO: Add people: {
     title:
 } to the data for properties and map a display out for when we add people to the buildings for easier contact.
 
-TODO: Add TENANT PORTAL -> Work Orders (IMPAK) and Payments to Nav component.
+TODO: Add TENANT PORTAL -> Work Orders (IMPAK) and Payments to Nav component. Maybe change contact us to support and put them under there?

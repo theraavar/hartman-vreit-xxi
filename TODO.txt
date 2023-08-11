@@ -11,13 +11,7 @@ TODO: Overwrite the default error messages for email input.
 TODO: Create a modal not reliant on HeadlessUI (see link in Modal component file).
 TODO: Style modal component.
 
-TODO: Setup our basic pages.
-
-TODO: Ensure Card component is responsive if used outside of the Grid component?
-
 TODO: Fix the generateMetadata functions in our dynamic routes
-
-TODO: Add a transition on the slideshow to switch images so it's smoother?
 
 TODO: Add people: {
     first:
@@ -35,3 +29,16 @@ TODO: Add some 'buttons' on the properties page that toggles certain ones on or 
 TODO: Add informaton about surrounding attractions for each building?
 
 TODO: Client testimonials for each property; will help sell and show quality of service
+
+TODO: Update the downloaded floor plans and link accordingly in S3
+
+NOTES:
+
+Loopnets
+    Spectrum
+        300 is currently listed as available when it is not.
+        610 is currently listed as available when it is not.
+    
+images
+    Spectrum
+        300 is missing floor plan.

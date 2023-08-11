@@ -76,8 +76,8 @@ const Page = ({ params, searchParams }: Props) => {
                             </div>
                             <div className={styles.resources}>
                                 <h5>Resources</h5>
-                                <Link href={`${value.links.loopnet}`}>Loopnet</Link>
-                                <Link href={`${value.links.flyer}`}>Official Property Flyer</Link>
+                                <Link href={`${value.links.loopnet}`} target='_blank' rel='noreferrer noopener'>Loopnet</Link>
+                                <Link href={`${value.links.flyer}`} target='_blank' rel='noreferrer noopener'>Official Property Flyer</Link>
                             </div>
                         </div>
                     )

@@ -194,20 +194,41 @@ export const PROPERTIES = [
         suites: [
             {
                 available: true,
+                id: '205',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/205/927++16420+Park+Ten+Suite+205++2980+nra.pdf'],
+                psf: '$9.00',
+                sqft: '2,980'
+            },
+            {
+                available: true,
+                id: '230',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/230/927++16420+Park+Ten+Suite+230++2949+nra.pdf'],
+                psf: '$11.00',
+                sqft: '2,949'
+            },
+            {
+                available: true,
+                id: '530',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/530/927++16420+Park+Ten+Suite+530++2563+nra.pdf'],
+                psf: '$11.00',
+                sqft: '2,563'
+            },
+            {
+                available: false,
                 id: '540',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/540/927+-+16420+Park+Ten+Suite+540+-+1%2C365+nra+01.19.2023+(existing).jpg'],
                 psf: '$10.00 - $12.00',
                 sqft: '1,365'
             },
             {
-                available: true,
+                available: false,
                 id: '560',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/560/927+-+16420+Park+Ten+Suite+560+-+1%2C330+nra+02.03.2022.jpg'],
                 psf: '$10.00 - $12.00',
                 sqft: '1,330'
             },
             {
-                available: true,
+                available: false,
                 id: '570',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/570/927+-+16420+Park+Ten+Suite+570+-+1%2C095+nra+02.03.2022.jpg'],
                 psf: '$10.00 - $12.00',
@@ -279,20 +300,41 @@ export const PROPERTIES = [
         suites: [
             {
                 available: true,
-                id: '400',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/400/926+-+1400+Broadfield+Suite+400+-+5%2C361+nra+02.13.2023+(existing).jpg'],
-                psf: '$13.50 - $15.50',
-                sqft: '5,361'
+                id: '225',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/225/Suite+225++2327.pdf'],
+                psf: '$11.50',
+                sqft: '2,327'
             },
             {
                 available: true,
+                id: '330',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/330/926+1400+Broadfield+Suite+3303221+sqft.pdf'],
+                psf: '$13.50',
+                sqft: '3,221'
+            },
+            {
+                available: true,
+                id: '375',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/375/926++1400+Broadfield+Suite+325+and+Suite+3755547+sqft.pdf'],
+                psf: '$13.50',
+                sqft: '2,847'
+            },
+            {
+                available: true,
+                id: '400',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/400/926+-+1400+Broadfield+Suite+400+-+5%2C361+nra+02.13.2023+(existing).jpg'],
+                psf: '$13.50',
+                sqft: '5,361'
+            },
+            {
+                available: false,
                 id: '410',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/410/926+-+1400+Broadfield+Suite+410+-+8%2C203+nra+01.04.2023+(existing).jpg'],
                 psf: '$13.50 - $15.50',
                 sqft: '8,203'
             },
             {
-                available: true,
+                available: false,
                 id: '625',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/625/926+-+1400+Broadfield+Suite+625+-+6%2C540+nra+01.20.2023+(existing).jpg'],
                 psf: '$13.50 - $15.50',
@@ -302,7 +344,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '640',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/640/926+-+1400+Broadfield+Suite+640+-+1%2C546+nra+02.02.2023+(existing).jpg'],
-                psf: '$13.50 - $15.50',
+                psf: '$13.50',
                 sqft: '1,546'
             },
         ],
@@ -600,7 +642,8 @@ export const PROPERTIES = [
             zipCode: '77070'
         },
         amenities: ['Free Initial Test Fits', 'Professional Management and Leasing', 'On-site Building Engineer', 'On-site Courtesy Guard', 'Live 24-hour Video Surveillance', 'After-hours Controlled Access', 'Free Parking with Reserved Options Available', 'Move-in Ready Suites'],
-        description: ['Willowbrook is a three-story, top-tier Class B property conveniently located in the FM 1960 submarket. This property offers convenient access to Highway 249, FM 1960, and Beltway 8. Willowbrook provides quick access to George Bush Internation Airport and downtown, with over a hundred stores and restaurants available within walking distance.'],
+        class: 'B',
+        description: ['7915 FM 1960 "The Willowbrook Building" is a three-story, top tier Class B property conveniently located in the FM 1960 submarket. This property offers convenient access to Highway 249, FM 1960 and Beltway 8 and is located near several high-end restaurants, hotels and retail centers. This property shares a parking lot with Willowbrook Mall, providing several retail shops and food options within walking distance. 7915 FM 1960 also provides quick access to George Bush Intercontinental Airport, making this property an ideal location for your business. The property has several amenities, including free parking, on-site building engineer, on-site courtesy guard, 24-hour monitored surveillance, and after-hours controlled access. The Willowbrook Building also has move-in ready suites, making it an easy transition when you are ready to make the move. Come discover 7915 FM 1960 today!'],
         displayName: 'Willowbrook',
         id: 'willowbrook',
         images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Primary-1-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Lobby-Elevator-8-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Lobby-6-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Interior-View-7-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-4-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-3-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Alternate-3-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915+FM-1960+W%2C+Houston%2C+TX+77070+-+The+Willowbrook+Building+_+LoopNet_files/'],
@@ -638,14 +681,14 @@ export const PROPERTIES = [
                 sqft: '1,945'
             },
             {
-                available: true,
+                available: false,
                 id: '105',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/105/928+-+7915+FM+1960+Willowbrook+Suite+105+01.26.2023.jpg'],
                 psf: '$8.00 - $10.00',
                 sqft: '2,757'
             },
             {
-                available: true,
+                available: false,
                 id: '115',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/115/928+-+7915+FM+1960+Willowbrook+Suite+115+-+1%2C055+nra+02.03.2023+(existing).jpg'],
                 psf: '$8.00 - $10.00',
@@ -659,7 +702,7 @@ export const PROPERTIES = [
                 sqft: '1,368'
             },
             {
-                available: true,
+                available: false,
                 id: '209',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/209/928+-+7915+FM+1960+Willowbrook+Suite+209+-+490+nra+02.01.2023+(existing).jpg'],
                 psf: '$8.00 - $10.00',
@@ -673,7 +716,7 @@ export const PROPERTIES = [
                 sqft: '4,352'
             },
             {
-                available: true,
+                available: false,
                 id: '226',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/226/928+-+7915+FM+1960+Willowbrook+Suite+226+-+330+nra+01.27.2023+(existing).jpg'],
                 psf: '$8.00 - $10.00',
@@ -694,7 +737,7 @@ export const PROPERTIES = [
                 sqft: '997'
             },
             {
-                available: true,
+                available: false,
                 id: '390',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/390/928+-+7915+FM+1960+Willowbrook+Suite+390+-+1%2C542+nra+02.01.2023+(existing).jpg'],
                 psf: '$8.00 - $10.00',
@@ -704,7 +747,7 @@ export const PROPERTIES = [
         toggle: {
             address: true,
             amenities: true,
-            class: false,
+            class: true,
             description: true,
             displayName: true,
             id: true,
@@ -739,7 +782,7 @@ export const PROPERTIES = [
         },
         amenities: ['On-site Property Management', 'Conference Room', 'Garage Parking with Reserved Options', 'Tenant Lounge with Fresh Pantry Market', 'Recently Renovated Restrooms', 'After-Hours Controlled Access', 'Live Video Surveillance', 'NeedlePoint Bipolar Ionization Installed October 2020', '3 Miles from San Antonio International Airport', 'On-site Security Guard'],
         class: 'A',
-        description: ['Spectrum is a 10-story, Class A building conveniently located in the North Central San Antonio submarket.'],
+        description: ['The Spectrum Building at 613 NW Loop 410 is a 10-story, highly visible, Class A office building with a premier location in the North Central San Antonio submarket. Comprised of 175,314 square feet, the building features recent renovations to the lobby and common area restrooms, and a Needlepoint Bipolar Ionization system was installed in October 2020. This state-of-the-art air cleaning technology eliminates over 96% of airborne pathogens, mold, and viruses. Additional safety features include an on-site courtesy officer, 24-hour live video surveillance, and after-hours controlled access. Besides the on-site leasing and management team, Spectrum also offers several on-site amenities for tenants, including a conference room, deli, and tenant lounge with a fresh pantry market. Opportunities for top-of-building signage are available, presenting exceptional exposure for tenants. This desirable San Antonio address sits less than three miles from the San Antonio International Airport. There are over 80 restaurants and numerous popular residential areas within a two-mile radius. Spectrum is also close to hotels, bars, and shopping destinations, which are easily accessible by car or on foot in minutes. Commuters enjoy 440 parking spaces in the attached parking garage, with reserved options available, and easy access to Loop 410, which quickly connects to I-10 and the McAllister Freeway. With its recent renovations, numerous on-site amenities, and convenient San Antonio address, Spectrum is sure to meet all business needs.'],
         displayName: 'Spectrum',
         id: 'spectrum',
         images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Highly-Visible-Class-A-Office-Building-1-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Highly-Visible-Class-A-Office-Building-3-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Main-Entrance-4-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Main-Lobby-10-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Main-Lobby-Elevators-11-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Main-Lobby-Information-Desk-8-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Market-16-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/613-NW-Loop-410-San-Antonio-TX-Market-Seating-18-LargeHighDefinition.jpg'],
@@ -780,9 +823,16 @@ export const PROPERTIES = [
             {
                 available: true,
                 id: '200',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/200/200.png'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/200/922-Spectrum+Level+02+05.27.2022+(existing-cubicles).pdf'],
                 psf: '$23.50 - $25.50',
                 sqft: '18,345'
+            },
+            {
+                available: false,
+                id: '300',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/300/922-Spectrum+Level+03+02.15.2023+(existing).pdf'],
+                psf: '$23.50 - $25.50',
+                sqft: '17,994'
             },
             {
                 available: true,
@@ -806,7 +856,7 @@ export const PROPERTIES = [
                 sqft: '4,441'
             },
             {
-                available: true,
+                available: false,
                 id: '610',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/610/610.jpg'],
                 psf: '$23.50 - $25.50',
@@ -825,6 +875,13 @@ export const PROPERTIES = [
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/875/875.jpg'],
                 psf: '$23.50 - $25.50',
                 sqft: '4,177'
+            },
+            {
+                available: true,
+                id: '900',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/900/Suite+900+Floor+Plan.pdf'],
+                psf: '$23.50 - $25.50',
+                sqft: '17,900'
             },
         ],
         toggle: {

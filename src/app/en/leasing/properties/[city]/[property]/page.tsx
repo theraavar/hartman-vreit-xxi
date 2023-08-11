@@ -48,17 +48,37 @@ const Page = ({ params, searchParams }: Props) => {
                     return (
                         <div className={styles.wrapper}
                             key={index}>
-                            <Slideshow
-                                values={value.images} />
-                            <Box>
+                            <div className={styles.heading}>
                                 <h4>{value.displayName}</h4>
-                                <h6>{value.address.street}<br />{value.address.city}, {value.address.state} {value.address.zipCode}</h6>
-                            </Box>
-                            <Box>
+                                <h5>{value.address.street}, {value.address.city}, {value.address.state} {value.address.zipCode}</h5>
+                            </div>
+                            <div className={styles.slideshow}>
+                                <Slideshow
+                                    values={value.images} />
+                            </div>
+                            <div className={styles.description}>
+                                {value.description}
+                            </div>
+                            <div className={styles.people}>
+
+                            </div>
+                            <div className={styles.availableSpaces}>
+
+                            </div>
+                            <div className={styles.reviews}>
+
+                            </div>
+                            <div className={styles.amenities}>
+
+                            </div>
+                            <div className={styles.hours}>
+
+                            </div>
+                            <div className={styles.resources}>
                                 <h5>Resources</h5>
                                 <Link href={`${value.links.loopnet}`}>Loopnet</Link>
-                                <Link href={`${value.links.flyer}`}>Property Flyer</Link>
-                            </Box>
+                                <Link href={`${value.links.flyer}`}>Official Property Flyer</Link>
+                            </div>
                         </div>
                     )
                 }

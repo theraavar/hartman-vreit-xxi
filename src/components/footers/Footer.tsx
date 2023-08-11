@@ -26,9 +26,9 @@ const Footer = ({ children }: { children: React.ReactNode }) => {
                 exit="show"
                 variants={scrollIn}>
                 <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
-                <Link className={styles.link} href="en/terms-of-use">Terms of Use</Link>
+                <Link className={styles.link} href="/en/terms-of-use">Terms of Use</Link>
                 <Link className={styles.link} href="/en/privacy-notice">Privacy Notice</Link>
-                <Link className={styles.link} href="/en/cookies">Cookie Settings</Link>
+                {/*<Link className={styles.link} href="/en/cookies">Cookie Settings</Link>*/}
             </motion.ul>
             <span className={styles.copyright}>Copyright © 2023 Hartman VReit XXI. All rights reserved.</span>
         </footer>

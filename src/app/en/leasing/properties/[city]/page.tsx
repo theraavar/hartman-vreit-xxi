@@ -1,6 +1,7 @@
 import Grid from '@/components/common/Grid'
 import Vessel from '@/components/common/Vessel'
 import Card from '@/components/common/cards/Card'
+import Title from '@/components/headers/Title'
 import { PROPERTIES } from '@/data/Properties'
 import { ResolvingMetadata } from 'next'
 
@@ -45,6 +46,8 @@ const Page = ({ params, searchParams }: Props) => {
         id = 'San Antonio'
     } else if (id === 'houston') {
         id = 'Houston'
+    } else {
+        id = 'Dallas'
     }
 
     const properties: ({
@@ -63,6 +66,7 @@ const Page = ({ params, searchParams }: Props) => {
     })
     return (
         <Vessel>
+            <Title title={id} />
             <Grid>
                 {properties.map((value, index) => {
                     return (

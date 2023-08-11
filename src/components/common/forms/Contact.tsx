@@ -117,7 +117,7 @@ const Contact = () => {
             exit="hide"
             variants={scrollIn}
             onSubmit={handleSubmit}>
-            <h3>Contact Us</h3>
+            <h3></h3>
             <div className={styles.group}>
                 <Set
                     error={errors.firstName}

@@ -1,5 +1,24 @@
-.wrapper {
-    height: 100%;
-    padding: 0 5%;
-    width: 100%
-}
+.wrapper {}
+
+.heading {}
+
+.slideshow {}
+
+.description {}
+
+.people {}
+
+.availableSpaces {}
+
+.reviews {}
+
+.amenities {}
+
+.hours {}
+
+.resources {}
+
+/*
+We want to apply a grid container setup to the wrapper class, and then assign the immediate children parts of that grid.
+After the initial setup (which should be mobile first), we then want to override the children declarations as we move up in screen width.
+*/

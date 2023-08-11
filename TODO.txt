@@ -17,9 +17,7 @@ TODO: Ensure Card component is responsive if used outside of the Grid component?
 
 TODO: Fix the generateMetadata functions in our dynamic routes
 
-TODO: Fix the slideshow dots not working properly
 TODO: Add a transition on the slideshow to switch images so it's smoother?
-TODO: Try to preload the next image?
 
 TODO: Add people: {
     first:
@@ -32,6 +30,7 @@ TODO: Add people: {
 TODO: Update which spaces are currently available
 
 TODO: Add in a search option on the properties page for price, location, property type
+TODO: Add some 'buttons' on the properties page that toggles certain ones on or off? like [All/Dallas/Houston/San Antonio] + [1000sqft/2000sqft/3000+sqft] + [10psf/12psf/15psf]
 
 TODO: Add informaton about surrounding attractions for each building?
 

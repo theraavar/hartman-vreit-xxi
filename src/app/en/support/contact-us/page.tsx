@@ -1,5 +1,6 @@
 import Vessel from "@/components/common/Vessel"
 import Contact from "@/components/common/forms/Contact"
+import Title from "@/components/headers/Title"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 const Page = () => {
     return (
         <Vessel>
+            <Title title='Contact Us' />
             <Contact />
         </Vessel>
     )

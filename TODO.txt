@@ -13,32 +13,26 @@ TODO: Style modal component.
 
 TODO: Fix the generateMetadata functions in our dynamic routes
 
-TODO: Add people: {
-    first:
-    last:
-    phone:
-    email:
-    title:
-} to the data for properties and map a display out for when we add people to the buildings for easier contact.
+TODO: Fix the nav bar on mobile
 
-TODO: Update which spaces are currently available
+TODO: Add download link to floor plans on modal boxes
 
-TODO: Add in a search option on the properties page for price, location, property type
-TODO: Add some 'buttons' on the properties page that toggles certain ones on or off? like [All/Dallas/Houston/San Antonio] + [1000sqft/2000sqft/3000+sqft] + [10psf/12psf/15psf]
+TODO: Fix image sizes for performance; check the next/image docs?
+https://developer.chrome.com/docs/lighthouse/performance/server-response-time/?utm_source=lighthouse&utm_medium=devtools
+https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/?utm_source=lighthouse&utm_medium=devtools
+https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources/?utm_source=lighthouse&utm_medium=devtools
+https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/?utm_source=lighthouse&utm_medium=devtools
+https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss/?utm_source=lighthouse&utm_medium=devtools
 
-TODO: Add informaton about surrounding attractions for each building?
+TODO: Fix this build error: src/app/en/leasing/properties/[city]/page.tsx
+Type error: Type 'ResolvingMetadata | undefined' does not satisfy the constraint 'ResolvingMetadata'.
+  Type 'undefined' is not assignable to type 'Promise<ResolvedMetadata>'.
 
-TODO: Client testimonials for each property; will help sell and show quality of service
 
-TODO: Update the downloaded floor plans and link accordingly in S3
+FUTURE UPDATES:
 
-NOTES:
-
-Loopnets
-    Spectrum
-        300 is currently listed as available when it is not.
-        610 is currently listed as available when it is not.
-    
-images
-    Spectrum
-        300 is missing floor plan.
+I. Client testimonials for each property.
+II. Search bar for properties and/or available spaces, which can utilize sorting for location, price, property type, etc.
+III. Add in a display toggle on the /en/leasing/properties page that allows you to turn cards on or off based on the selected cities.
+IV. Add a people data point to our properties to display who the property manager and engineer are on each page.
+V. Add in nearby locations to each property that would be considered attractors.

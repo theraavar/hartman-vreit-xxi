@@ -3,6 +3,12 @@ import Vessel from "@/components/common/Vessel"
 import { PROPERTIES } from '../../../../data/Properties'
 import Card from "@/components/common/cards/Card"
 import Title from "@/components/headers/Title"
+import { Metadata } from "next"
+
+
+export const metadata: Metadata = {
+    title: 'Properties'
+}
 
 const Page = () => {
     return (
@@ -12,6 +18,7 @@ const Page = () => {
                 {PROPERTIES.map((value, index) => {
                     return (
                         <Card
+                            key={index}
                             image={value.images[0]}
                             link={value.links.url}>
                             <h5>{value.displayName}</h5>

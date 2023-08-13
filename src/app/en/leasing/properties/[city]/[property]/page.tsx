@@ -12,15 +12,17 @@ type Props = {
 }
 /*
 export async function generateMetadata({ params, searchParams }: Props, parent?: ResolvingMetadata) {
-    const id = params.id
-
-    const result = await fetch(`https://.../${id}`).then((res) => res.json())
-
-    /* Any of the metadata options that we want to generate needs to be in the return statement. */
-/*
-return {
-    title: result.title
-}
+    const id = params.property
+    let data = ''
+    console.log(parent)
+    PROPERTIES.map((value) => {
+        if (value.id === id) {
+            data = value.displayName
+        }
+    })
+    return {
+        title: data
+    }
 }
 
 /* This will populate our routes. */

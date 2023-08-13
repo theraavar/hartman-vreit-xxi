@@ -4,7 +4,7 @@ import Title from "@/components/headers/Title"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: 'Tenants'
+    title: 'Payments'
 }
 
 const Page = () => {

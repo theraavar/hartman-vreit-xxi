@@ -12,15 +12,17 @@ type Props = {
 
 /*
 export async function generateMetadata({ params, searchParams }: Props, parent?: ResolvingMetadata) {
-    const id = params.id
-
-    const result = await fetch(`https://.../${id}`).then((res) => res.json())
-
-    /* Any of the metadata options that we want to generate needs to be in the return statement. */
-/*
-return {
-    title: result.title
-}
+    let id = params.city
+    if (id === 'san-antonio') {
+        id = 'San Antonio'
+    } else if (id === 'houston') {
+        id = 'Houston'
+    } else if (id === 'dallas') {
+        id = 'Dallas'
+    }
+    return {
+        title: id
+    }
 }
 
 /* This will populate our routes. */
@@ -46,14 +48,11 @@ const Page = ({ params, searchParams }: Props) => {
         id = 'San Antonio'
     } else if (id === 'houston') {
         id = 'Houston'
-    } else {
+    } else if (id === 'dallas') {
         id = 'Dallas'
     }
 
-    const properties: ({
-        address: { city: string; state: string; street: string; zipCode: string }; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; amenities?: undefined; description?: undefined
-        schedules?: undefined; class?: undefined; year?: undefined; suites?: undefined; size?: undefined
-    } | { address: { city: string; state: string /* This will populate our routes. */; street: string; zipCode: string }; amenities: string[]; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security?: undefined }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; class?: undefined; year?: undefined; suites?: undefined; size?: undefined } | { address: { city: string; state: string; street: string; zipCode: string }; amenities: string[]; class: string; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security?: undefined }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; year: string; suites?: undefined; size?: undefined } | { address: { city: string; state: string; street: string; zipCode: string }; amenities: string[]; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string } }; suites: { available: boolean; id: string; images: string[]; psf: string; sqft: string }[]; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; class?: undefined; year?: undefined; size?: undefined } | { address: { city: string; state: string; street: string; zipCode: string }; amenities: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string } }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; year: string; description?: undefined; class?: undefined; suites?: undefined; size?: undefined } | { address: { city: string; state: string; street: string; zipCode: string }; amenities: string[]; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string } }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; class?: undefined; year?: undefined; suites?: undefined; size?: undefined } | { address: { city: string; state: string; street: string; zipCode: string }; amenities: string[]; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string } }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; year: string; class?: undefined; suites?: undefined; size?: undefined } | { address: { city: string; state: string; street: string; zipCode: string }; amenities: string[]; class: string; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; loopnet: string; url: string }; schedules: { building: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string }; security: { monday: string; tuesday: string; wednesday: string; thursday: string; friday: string; saturday: string; sunday: string } }; size: string; suites: { available: boolean; id: string; images: string[]; psf: string; sqft: string }[]; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; year: string } | { address: { city: string; state: string; street: string; zipCode: string }; description: string[]; displayName: string; id: string; images: string[]; links: { flyer: string; url: string; loopnet?: undefined }; toggle: { address: boolean; amenities: boolean; class: boolean; description: boolean; displayName: boolean; id: boolean; images: boolean; links: { flyer: boolean; loopnet: boolean; url: boolean }; schedules: { building: boolean; security: boolean }; size: boolean; suites: boolean; type: boolean; year: boolean }; amenities?: undefined; schedules?: undefined; class?: undefined; year?: undefined; suites?: undefined; size?: undefined })[] = []
+    const properties: any[] = []
     PROPERTIES.map((value) => {
         if (value.address.city === id) {
             properties.push(value)

@@ -137,7 +137,7 @@
 
 @media screen and (min-width: 1280px) {
     .slideshow {
-        min-height: 54vh;
+        max-height: 54vh;
     }
 
     .previous,
@@ -155,7 +155,7 @@
 
 @media screen and (min-width: 1536px) {
     .slideshow {
-        min-height: 60vh;
+        max-height: 60vh;
     }
 
     .previous,

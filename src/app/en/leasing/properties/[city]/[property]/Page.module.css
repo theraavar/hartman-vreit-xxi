@@ -1,12 +1,36 @@
-.wrapper {}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    width: 100%;
+}
 
-.heading {}
+.wrapper>* {
+    align-items: center;
+    background-color: var(--foreground);
+    border: 2px solid var(--border);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+.header {
+    flex-direction: row;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-content: space-around;
+}
 
 .slideshow {}
 
-.description {}
+.overview {}
 
-.people {}
+.staff {}
 
 .availableSpaces {}
 
@@ -17,8 +41,3 @@
 .hours {}
 
 .resources {}
-
-/*
-We want to apply a grid container setup to the wrapper class, and then assign the immediate children parts of that grid.
-After the initial setup (which should be mobile first), we then want to override the children declarations as we move up in screen width.
-*/

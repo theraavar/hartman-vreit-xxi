@@ -33,11 +33,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: false,
                 security: false
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: false,
@@ -85,11 +87,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: false
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: false,
@@ -108,7 +112,6 @@ export const PROPERTIES = [
             zipCode: '77079'
         },
         amenities: ['Katy Freeway Frontage Location (Energy Corridor)', 'On-site Management and Leasing', 'After-hours Controlled Access', 'Reserved and Covered Parking', 'On-site Conference Room', 'Tenant Lounge', 'Newly Renovated Car Ports', 'New HVAC', 'Monitored Surveillance', 'Renovated Lobby', 'NeedlePoint Bipolar Ionization installed October 2020'],
-        class: '',
         description: ['Located in the Energy Corridor on the south side of the Katy Freeway between Kirkwood and Wilcrest. 11211 Katy Freeway offers convenient access to Interstate 10, Beltway 8, and Memorial Drive. 11211 Katy Freeway has numerous restauraunts and retailers nearby providing abundant amenities for its tenants. This building has had over $1,000,000 in common area updates, making this the perfect location for your business.'],
         displayName: '11211 Katy Freeway',
         id: '11211-katy-freeway',
@@ -131,9 +134,9 @@ export const PROPERTIES = [
         },
         toggle: {
             address: true,
-            amenities: false,
+            amenities: true,
             class: false,
-            description: false,
+            description: true,
             displayName: true,
             id: true,
             images: true,
@@ -142,11 +145,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: false
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: true,
@@ -249,11 +254,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: true
             },
             size: false,
+            staff: false,
             suites: true,
             type: false,
             year: false,
@@ -361,11 +368,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: true
             },
             size: false,
+            staff: false,
             suites: true,
             type: false,
             year: false,
@@ -380,6 +389,7 @@ export const PROPERTIES = [
             zipCode: '77077'
         },
         amenities: ['On-site Security Guard', 'Garage Parking with Reserved Options', 'Shared Amenity Floor', 'Tenant Lounge', 'Conference Room', 'On-site Leasing and Management', 'Executive Suites Available', 'Move-in Ready Suites', 'Newly Installed Showers', 'Food Trucks Weekly'],
+        description: "Dairy Ashford Drive is a major traffic artery that connects I-10 West, Westchase and Westwood with US Highway 59, north of Sugar Land, providing excellent access to Houston’s commerce centers. The property is nestled in the trees along beautiful Buffalo Bayou, which winds its way through the west side of Houston, furnishing beautiful views of the natural beauty of native Texas landscaping.",
         displayName: 'Ashford on the Bayou',
         id: 'ashford-on-the-bayou',
         images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/ashford-on-the-bayou/1001-S-Dairy-Ashford-Rd-Houston-TX-Primary-Property-View-1-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/ashford-on-the-bayou/1001-S-Dairy-Ashford-Rd-Houston-TX-Alternate-Property-View-2-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/ashford-on-the-bayou/1001-S-Dairy-Ashford-Rd-Houston-TX-Lobby-Seating-7-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/ashford-on-the-bayou/1001-S-Dairy-Ashford-Rd-Houston-TX-Lobby-Entrance-6-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/ashford-on-the-bayou/1001-S-Dairy-Ashford-Rd-Houston-TX-Property-Entrance-5-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/ashford-on-the-bayou/1001-S-Dairy-Ashford-Rd-Houston-TX-Tenant-Lounge-9-LargeHighDefinition.jpg'],
@@ -410,9 +420,9 @@ export const PROPERTIES = [
         },
         toggle: {
             address: true,
-            amenities: false,
+            amenities: true,
             class: false,
-            description: false,
+            description: true,
             displayName: true,
             id: true,
             images: true,
@@ -421,11 +431,13 @@ export const PROPERTIES = [
                 loopnet: false,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: false,
                 security: false
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: true,
@@ -440,6 +452,8 @@ export const PROPERTIES = [
             street: '16365 Park Ten Place',
             zipCode: '77084'
         },
+        amenities: ["Professional Management and Leasing", "On-site Building Engineer", "On-site Courtesy Officer", "Live 24-Hour Video Surveillance", "Katy Freeway Access", "After-hours Controlled Access", "Free Covered Parking with Reserved Options Available", "3.32:1000 Parking Ratio", "$50.00 After-hour HVAC"],
+        description: "One Park Ten is a three-story, atrium style Class B officer property conveniently located in the Katy Freeway West/Energy Corridor submarket. This property offers excellent access to I-10, Highway 6 and Beltway 8, making this a convenient location for your business. One Park Ten is in close proximity to several high-end dining establishments, hotels and shopping centers, including Memorial City Mall and City Centre. Come make One Park Ten your new business location today!",
         displayName: 'One Park Ten',
         id: 'one-park-ten',
         images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/one-park-ten/16365-Park-Ten-Place-Dr-Houston-TX-1-LargeHighDefinition.jpg'],
@@ -450,7 +464,7 @@ export const PROPERTIES = [
         },
         toggle: {
             address: true,
-            amenities: false,
+            amenities: true,
             class: false,
             description: true,
             displayName: true,
@@ -461,11 +475,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: false,
                 security: false
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: false,
@@ -522,11 +538,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: true
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: false,
@@ -540,6 +558,8 @@ export const PROPERTIES = [
             street: '16300 Katy Freeway',
             zipCode: '77094'
         },
+        amenities: ["Professional Management and Leasing", "On-site Building Engineer", "On-site Courtesy Officer", "Live 24-Hour Video Surveillance", "Katy Freeway Access", "After-hours Controlled Access", "Free Covered Parking with Reserved Options Available", "3.12:1000 Parking Ratio", "$50.00 After-hour HVAC"],
+        description: "Two Park Ten is a three-story, atrium style Class B office property conveniently located in the heart of the Katy West Freeway/ Energy Corridor submarket. This property offers excellent access to Interstate 10, Highway 6 and Sam Houston Tollway, benefiting from the current path of suburban development to Houston’s western sector.",
         displayName: 'Two Park Ten',
         id: 'two-park-ten',
         images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/two-park-ten/16300-Katy-Fwy-Houston-TX-16300-Katy-Fwy-1-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/two-park-ten/16300-Katy-Fwy-Houston-TX-16300-Katy-Fwy-Alternate-3-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/two-park-ten/16300-Katy-Fwy-Houston-TX-StudioRaheel_RAH_8056-Edit-5-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/two-park-ten/16300-Katy-Fwy-Houston-TX-Two-Park-Ten-hargrove-suite-6-LargeHighDefinition.jpg'],
@@ -550,7 +570,7 @@ export const PROPERTIES = [
         },
         toggle: {
             address: true,
-            amenities: false,
+            amenities: true,
             class: false,
             description: true,
             displayName: true,
@@ -561,11 +581,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: false,
                 security: false
             },
             size: true,
+            staff: false,
             suites: false,
             type: false,
             year: false,
@@ -622,11 +644,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: true
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: true,
@@ -662,6 +686,7 @@ export const PROPERTIES = [
                 saturday: '08:00 - 13:00',
                 sunday: '00:00 - 00:00'
             },
+            reviews: false,
             security: {
                 monday: '07:00 - 06:00',
                 tuesday: '07:00 - 06:00',
@@ -757,11 +782,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: true
             },
             size: false,
+            staff: false,
             suites: true,
             type: false,
             year: false,
@@ -897,11 +924,13 @@ export const PROPERTIES = [
                 loopnet: true,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: true,
                 security: true
             },
             size: true,
+            staff: false,
             suites: true,
             type: false,
             year: true,
@@ -937,11 +966,13 @@ export const PROPERTIES = [
                 loopnet: false,
                 url: true,
             },
+            reviews: false,
             schedules: {
                 building: false,
                 security: false
             },
             size: false,
+            staff: false,
             suites: false,
             type: false,
             year: false,

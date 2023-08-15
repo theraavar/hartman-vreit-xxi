@@ -3,8 +3,8 @@ import Slideshow from '@/components/common/slideshows/Slideshow'
 import { PROPERTIES } from '@/data/Properties'
 import { ResolvingMetadata } from 'next'
 import styles from './Page.module.css'
-import Box from '@/components/common/Box'
 import Link from 'next/link'
+import Modal from '@/components/common/modals/Modal'
 
 type Props = {
     params: { property: string }
@@ -61,30 +61,129 @@ const Page = ({ params, searchParams }: Props) => {
                                     values={value.images} />
                             </div>
                             {/* This is our overview. */}
-                            <div className={styles.overview}>
-                                <h6>Property Overview</h6>
-                                <p>{value.description}</p>
-                            </div>
+                            {value.toggle.description ?
+                                <div className={styles.overview}>
+                                    <h5>Overview</h5>
+                                    <p>{value.description}</p>
+                                </div> : ''}
                             {/* These are our property managers and engineers. */}
-                            <div className={styles.staff}>
-                                <p>Property Staff</p>
-                            </div>
+                            {value.toggle.staff ?
+                                <div className={styles.staff}>
+                                    <h5>Staff</h5>
+                                </div> : ''}
                             {/* These are our available spaces. */}
-                            <div className={styles.availableSpaces}>
-                                <p>Available Spaces</p>
-                            </div>
+                            {value.toggle.suites ?
+                                <div className={styles.availableSpaces}>
+                                    <h6>Available Spaces</h6>
+                                    {value.suites?.map((v, i) => {
+                                        if (v.available) {
+                                            return (
+                                                <Modal
+                                                    key={i}
+                                                    buttonText={`Suite ${v.id}`}
+                                                    imageURL={v.images[0]}
+                                                    statistics={
+                                                        <div className={styles.statistics}>
+                                                            <span>
+                                                                <p>{v.sqft} sqft.</p>
+                                                            </span>
+                                                            <span>
+                                                                <p>{v.psf} psf.</p>
+                                                            </span>
+                                                            <span>
+                                                                Download
+                                                            </span>
+                                                        </div>
+                                                    } />
+                                            )
+                                        }
+                                    })}
+                                </div> :
+                                <div className={styles.availableSpaces}>
+                                    <h6>Available Spaces</h6>
+                                    <p>No spaces are currently available.</p>
+                                </div>}
                             {/* These are our reviews. */}
-                            <div className={styles.reviews}>
-                                <p>Reviews</p>
-                            </div>
-                            <div className={styles.amenities}>
-                                <p>Amenities</p>
-                            </div>
-                            <div className={styles.hours}>
-                                <p>Hours</p>
-                            </div>
+                            {value.toggle.reviews ?
+                                <div className={styles.reviews}>
+                                    <h5>Reviews</h5>
+                                </div> : ''}
+                            {/* These are our amenities. */}
+                            {value.toggle.amenities ?
+                                <div className={styles.amenities}>
+                                    <h5>Amenities</h5>
+                                    <ul>
+                                        {value.amenities?.map((v, i) => {
+                                            return (
+                                                <li
+                                                    key={i}>
+                                                    {v}
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
+                                </div> : ''}
+                            {value.toggle.schedules.building || value.toggle.schedules.security ?
+                                <div className={styles.hours}>
+                                    {value.toggle.schedules.building ?
+                                        <div className={styles.building}>
+                                            <h5>Building Hours</h5>
+                                            <span>
+                                                <p>Monday</p>
+                                                <p>{value.schedules?.building.monday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Tuesday</p>
+                                                <p>{value.schedules?.building.tuesday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Wednesday</p>
+                                                <p>{value.schedules?.building.wednesday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Thursday</p>
+                                                <p>{value.schedules?.building.thursday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Friday</p>
+                                                <p>{value.schedules?.building.friday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Saturday</p>
+                                                <p>{value.schedules?.building.saturday}</p>
+                                            </span>
+                                        </div> : ''}
+                                    {value.toggle.schedules.security && value.schedules?.security !== undefined ?
+                                        <div className={styles.security}>
+
+                                            <h5>Security Hours</h5>
+                                            <span>
+                                                <p>Monday</p>
+                                                <p>{value.schedules?.security.monday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Tuesday</p>
+                                                <p>{value.schedules?.security.tuesday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Wednesday</p>
+                                                <p>{value.schedules?.security.wednesday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Thursday</p>
+                                                <p>{value.schedules?.security.thursday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Friday</p>
+                                                <p>{value.schedules?.security.friday}</p>
+                                            </span>
+                                            <span>
+                                                <p>Saturday</p>
+                                                <p>{value.schedules?.security.saturday}</p>
+                                            </span>
+                                        </div> : ''}
+                                </div> : ''}
                             <div className={styles.resources}>
-                                <h5>Resources</h5>
                                 <Link href={`${value.links.loopnet}`} target='_blank' rel='noreferrer noopener'>Loopnet</Link>
                                 <Link href={`${value.links.flyer}`} target='_blank' rel='noreferrer noopener'>Official Property Flyer</Link>
                             </div>

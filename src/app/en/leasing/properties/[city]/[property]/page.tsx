@@ -91,7 +91,7 @@ const Page = ({ params, searchParams }: Props) => {
                                                                 <p>{v.psf} psf.</p>
                                                             </span>
                                                             <span>
-                                                                Download
+                                                                &#10515;
                                                             </span>
                                                         </div>
                                                     } />

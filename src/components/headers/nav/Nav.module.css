@@ -264,6 +264,16 @@
     }
 }
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .menu li {
+        min-width: 11rem;
+        padding: 1rem 0.5rem;
+    }
+}
 
-@media screen and (min-width: 1536px) {}
+@media screen and (min-width: 1536px) {
+    .menu li {
+        min-width: 12rem;
+        padding: 1rem 0.5rem;
+    }
+}

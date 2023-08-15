@@ -91,7 +91,7 @@ const Page = ({ params, searchParams }: Props) => {
                                                                 <p>{v.psf} psf.</p>
                                                             </span>
                                                             <span>
-                                                                &#10515;
+                                                                <Link href={`${v.images[0]}`} target='_blank' rel='noreferrer noopener'>&#10515;</Link>
                                                             </span>
                                                         </div>
                                                     } />

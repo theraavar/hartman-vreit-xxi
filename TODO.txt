@@ -1,9 +1,9 @@
 Before production: 
 
     Check the metadata for each page; ensure it is correct.
-    Move all components around as much as possible to ensure no unintended overlap.
-    Add enviroment variables to Vercel.
-    Check page speed insights and fix current issues if possible.
+    Move all components around as much as possible to ensure no unintended overlap. [/]
+    Add enviroment variables to Vercel. [/]
+    Check page speed insights and fix current issues if possible. 
 
 TODO: Enable reCaptcha on the form?
 TODO: Overwrite the default error messages for email input.

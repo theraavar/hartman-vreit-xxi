@@ -8,14 +8,14 @@ Before production:
 TODO: Enable reCaptcha on the form?
 TODO: Overwrite the default error messages for email input.
 
-TODO: Create a modal not reliant on HeadlessUI (see link in Modal component file).
-TODO: Style modal component.
+TODO: FIX MICROSOFT EDGE NOT LOADING SOME IMAGES!
 
 TODO: Fix the generateMetadata functions in our dynamic routes
 
 TODO: Fix the nav bar on mobile
 
-TODO: Add download link to floor plans on modal boxes
+TODO: Convert the pdf floor plans to images and relink.
+TODO: Get pdfs of each floor plan for the download link (it'll be better).
 
 TODO: Fix image sizes for performance; check the next/image docs?
 https://developer.chrome.com/docs/lighthouse/performance/server-response-time/?utm_source=lighthouse&utm_medium=devtools
@@ -26,7 +26,7 @@ https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss/?utm_source=
 
 TODO: Fix this build error: src/app/en/leasing/properties/[city]/page.tsx
 Type error: Type 'ResolvingMetadata | undefined' does not satisfy the constraint 'ResolvingMetadata'.
-  Type 'undefined' is not assignable to type 'Promise<ResolvedMetadata>'.
+  Type 'undefined' is not assignable to type 'Promise<ResolvedMetadata>'. 
 
 
 FUTURE UPDATES:

@@ -200,21 +200,24 @@ export const PROPERTIES = [
             {
                 available: true,
                 id: '205',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/205/927++16420+Park+Ten+Suite+205++2980+nra.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/205/927%2B%2B16420%2BPark%2BTen%2BSuite%2B205%2B%2B2980%2Bnra.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/205/927++16420+Park+Ten+Suite+205++2980+nra.pdf',
                 psf: '$9.00',
                 sqft: '2,980'
             },
             {
                 available: true,
                 id: '230',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/230/927++16420+Park+Ten+Suite+230++2949+nra.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/230/927%2B%2B16420%2BPark%2BTen%2BSuite%2B230%2B%2B2949%2Bnra.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/230/927++16420+Park+Ten+Suite+230++2949+nra.pdf',
                 psf: '$11.00',
                 sqft: '2,949'
             },
             {
                 available: true,
                 id: '530',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/530/927++16420+Park+Ten+Suite+530++2563+nra.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/530/927%2B%2B16420%2BPark%2BTen%2BSuite%2B530%2B%2B2563%2Bnra.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/530/927++16420+Park+Ten+Suite+530++2563+nra.pdf',
                 psf: '$11.00',
                 sqft: '2,563'
             },
@@ -222,6 +225,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '540',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/540/927+-+16420+Park+Ten+Suite+540+-+1%2C365+nra+01.19.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$10.00 - $12.00',
                 sqft: '1,365'
             },
@@ -229,6 +233,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '560',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/560/927+-+16420+Park+Ten+Suite+560+-+1%2C330+nra+02.03.2022.jpg'],
+                pdf: '',
                 psf: '$10.00 - $12.00',
                 sqft: '1,330'
             },
@@ -236,6 +241,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '570',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/16420-park-ten/570/927+-+16420+Park+Ten+Suite+570+-+1%2C095+nra+02.03.2022.jpg'],
+                pdf: '',
                 psf: '$10.00 - $12.00',
                 sqft: '1,095'
 
@@ -308,21 +314,24 @@ export const PROPERTIES = [
             {
                 available: true,
                 id: '225',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/225/Suite+225++2327.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/225/Suite+225++2327.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/225/Suite+225++2327.pdf',
                 psf: '$11.50',
                 sqft: '2,327'
             },
             {
                 available: true,
                 id: '330',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/330/926+1400+Broadfield+Suite+3303221+sqft.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/330/926%2B1400%2BBroadfield%2BSuite%2B3303221%2Bsqft.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/330/926+1400+Broadfield+Suite+3303221+sqft.pdf',
                 psf: '$13.50',
                 sqft: '3,221'
             },
             {
                 available: true,
                 id: '375',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/375/926++1400+Broadfield+Suite+325+and+Suite+3755547+sqft.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/375/926%2B%2B1400%2BBroadfield%2BSuite%2B325%2Band%2BSuite%2B3755547%2Bsqft.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/375/926++1400+Broadfield+Suite+325+and+Suite+3755547+sqft.pdf',
                 psf: '$13.50',
                 sqft: '2,847'
             },
@@ -330,6 +339,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '400',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/400/926+-+1400+Broadfield+Suite+400+-+5%2C361+nra+02.13.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/400/926++1400+Broadfield+Suite+400++5361+nra+12122022+existing.pdf',
                 psf: '$13.50',
                 sqft: '5,361'
             },
@@ -337,6 +347,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '410',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/410/926+-+1400+Broadfield+Suite+410+-+8%2C203+nra+01.04.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$13.50 - $15.50',
                 sqft: '8,203'
             },
@@ -344,6 +355,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '625',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/625/926+-+1400+Broadfield+Suite+625+-+6%2C540+nra+01.20.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$13.50 - $15.50',
                 sqft: '6,540'
             },
@@ -351,6 +363,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '640',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/640/926+-+1400+Broadfield+Suite+640+-+1%2C546+nra+02.02.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/1400-broadfield/640/926++1400+Broadfield+Suite+640++1546+nra+08042022.pdf',
                 psf: '$13.50',
                 sqft: '1,546'
             },
@@ -702,6 +715,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '101',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+110+-+2%2C866+nra+01.27.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$8.00 - $10.00',
                 sqft: '1,945'
             },
@@ -709,6 +723,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '105',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/105/928+-+7915+FM+1960+Willowbrook+Suite+105+01.26.2023.jpg'],
+                pdf: '',
                 psf: '$8.00 - $10.00',
                 sqft: '2,757'
             },
@@ -716,6 +731,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '115',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/115/928+-+7915+FM+1960+Willowbrook+Suite+115+-+1%2C055+nra+02.03.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$8.00 - $10.00',
                 sqft: '1,055'
             },
@@ -723,6 +739,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '201',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/201/928+-+7915+FM+1960+Willowbrook+Suite+201+-+1%2C368+nra+03.02.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/201/928++7915+FM+1960+Willowbrook+Suite+201++1368+nra+03022023+existing.pdf',
                 psf: '$8.00 - $10.00',
                 sqft: '1,368'
             },
@@ -730,6 +747,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '209',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/209/928+-+7915+FM+1960+Willowbrook+Suite+209+-+490+nra+02.01.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$8.00 - $10.00',
                 sqft: '490'
             },
@@ -737,6 +755,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '210',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/210/928+-+7915+FM+1960+Willowbrook+Suite+210+-+4%2C352+nra+01.31.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/210/928++7915+FM+1960+Willowbrook+Suite+210++4352+nra+01312023+existing.pdf',
                 psf: '$8.00 - $10.00',
                 sqft: '4,352'
             },
@@ -744,6 +763,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '226',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/226/928+-+7915+FM+1960+Willowbrook+Suite+226+-+330+nra+01.27.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$8.00 - $10.00',
                 sqft: '330'
             },
@@ -751,6 +771,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '365',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/365/928+-+7915+FM+1960+Willowbrook+Suite+365+-+1%2C321+nra+01.12.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/365/928++7915+FM+1960+Willowbrook+Suite+365++1321+nra+01122023+existing.pdf',
                 psf: '$8.00 - $10.00',
                 sqft: '1,321'
             },
@@ -758,6 +779,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '380',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/380/928+-+7915+FM+1960+Willowbrook+Suite+380+-+997+nra+02.01.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/380/928++7915+FM+1960+Willowbrook+Suite+380++997+nra+02012023+existing.pdf',
                 psf: '$8.00 - $10.00',
                 sqft: '997'
             },
@@ -765,6 +787,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '390',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/390/928+-+7915+FM+1960+Willowbrook+Suite+390+-+1%2C542+nra+02.01.2023+(existing).jpg'],
+                pdf: '',
                 psf: '$8.00 - $10.00',
                 sqft: '1,542'
             }
@@ -844,20 +867,23 @@ export const PROPERTIES = [
                 available: true,
                 id: '195',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/195/195.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/195/922Spectrum+Suite+195++2603+nra+10072021.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '2,603'
             },
             {
                 available: true,
                 id: '200',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/200/922-Spectrum+Level+02+05.27.2022+(existing-cubicles).pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/200/922-Spectrum%2BLevel%2B02%2B05.27.2022%2B(existing-cubicles).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/200/922-Spectrum+Level+02+05.27.2022+(existing-cubicles).pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '18,345'
             },
             {
                 available: false,
                 id: '300',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/300/922-Spectrum+Level+03+02.15.2023+(existing).pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/300/922-Spectrum%2BLevel%2B03%2B02.15.2023%2B(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/300/922-Spectrum+Level+03+02.15.2023+(existing).pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '17,994'
             },
@@ -865,6 +891,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '400',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/400/400.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/400/922Spectrum+Level+04+04012022+existing.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '17,730'
             },
@@ -872,6 +899,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '515',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/515/515.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/515/922Spectrum+Suite+515++693+nra+10072022+existing.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '693'
             },
@@ -879,6 +907,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '530',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/530/530.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/530/922Spectrum+Suite+530++4441+nra+01142022+existing.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '4,441'
             },
@@ -886,6 +915,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '610',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/610/610.jpg'],
+                pdf: '',
                 psf: '$23.50 - $25.50',
                 sqft: '1,258'
             },
@@ -893,6 +923,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '625',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/625/625.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/625/922Spectrum+Suite+625++1248+nra+08092022.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '1,248'
             },
@@ -900,13 +931,15 @@ export const PROPERTIES = [
                 available: true,
                 id: '875',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/875/875.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/875/922Spectrum+Suite+875++4177+10142022+existing.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '4,177'
             },
             {
                 available: true,
                 id: '900',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/900/Suite+900+Floor+Plan.pdf'],
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/900/Suite%2B900%2BFloor%2BPlan.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/900/Suite+900+Floor+Plan.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '17,900'
             },

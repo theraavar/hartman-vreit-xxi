@@ -62,6 +62,16 @@
     padding: 0.25rem 0.5rem;
 }
 
+.statistics:last-child {
+    padding: 0 2px;
+}
+
+.statistics:last-child:hover {
+    background-color: var(--gamma);
+    border: 2px solid var(--delta);
+    transform: scale(1.1);
+}
+
 .reviews {
     grid-column: 4 / 10;
     grid-row: 5 / 6;

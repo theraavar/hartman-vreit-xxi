@@ -4,25 +4,14 @@
     border-bottom: 3px solid var(--beta);
     display: flex;
     flex-direction: column;
-    height: 10vh;
+    min-height: 13vh;
     justify-content: center;
     width: 100%;
 }
 
-@media screen and (min-width: 640px) {
-    .header {
-        height: 11vh;
-    }
-}
 
 @media screen and (min-width: 1024px) {
     .header {
-        height: 12vh;
-    }
-}
-
-@media screen and (min-width: 1536px) {
-    .header {
-        height: 13vh;
+        min-height: 12vh;
     }
 }

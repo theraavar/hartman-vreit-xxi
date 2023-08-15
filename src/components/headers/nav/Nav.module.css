@@ -3,6 +3,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
+    height: auto;
     margin-top: 1rem;
     padding: 0.5rem 3%;
     position: absolute;

@@ -132,6 +132,55 @@ export const PROPERTIES = [
                 sunday: '00:00 - 00:00'
             },
         },
+        suites: [
+            {
+                available: false,
+                id: '115-B104',
+                images: [''],
+                pdf: '',
+                psf: 'Upon Request',
+                sqft: '805'
+            },
+            {
+                available: true,
+                id: '115-B111',
+                images: [''],
+                pdf: '',
+                psf: 'Upon Request',
+                sqft: '346'
+            },
+            {
+                available: true,
+                id: '222',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/222/92311211+Katy+Fwy+Suite+222+02022021.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/222/92311211+Katy+Fwy+Suite+222+02022021.pdf',
+                psf: '$14.00',
+                sqft: '1,239'
+            },
+            {
+                available: true,
+                id: '415',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/415/923-11211+Katy+Fwy+Suite+415+-+1%2C834+nra+10.31.2022+(demo).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/415/923-11211+Katy+Fwy+Suite+415+-+1%2C834+nra+10.31.2022+(demo).pdf',
+                psf: '$12.00',
+                sqft: '1,834 - 3,122'
+            },
+            {
+                available: true,
+                id: '420',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/420/923-11211+Katy+Fwy+Suite+420+-+1%2C288+nra+10.31.2022+(demo).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/420/923-11211+Katy+Fwy+Suite+420+-+1%2C288+nra+10.31.2022+(demo).pdf',
+                psf: '$12.00',
+                sqft: '1,288 - 3,122'
+            }, {
+                available: true,
+                id: '690',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/690/923-11211+Katy+Fwy+Suite+690+-+1%2C201+nra+01.18.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/11211-katy-freeway/690/923-11211+Katy+Fwy+Suite+690+-+1%2C201+nra+01.18.2023+(existing).pdf',
+                psf: '$12.00',
+                sqft: '1,201'
+            },
+        ],
         toggle: {
             address: true,
             amenities: true,
@@ -152,7 +201,7 @@ export const PROPERTIES = [
             },
             size: false,
             staff: false,
-            suites: false,
+            suites: true,
             type: false,
             year: true,
         },
@@ -512,7 +561,7 @@ export const PROPERTIES = [
         description: ['Timberway II is a three-story, Class B office property conveniently located in the Katy Freeway West / Energy Corridor submarket. This property offers convenient access to Interstate 10, Beltway 8 and Highway 6. Timberway II is located near numerous banks, hotels, and restuarants, and is in close proximity to the prestigious Westlake shopping center.'],
         displayName: 'Timberway II',
         id: 'timberway-II',
-        images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Property-Entrance-20-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Parking-and-Property-Exterior-21-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Parking-and-Property-Exterior-22-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Newly-renovated-lobby-5-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Office-Space-12-LargeHighDefinition.jpg'],
+        images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Property-Exterior-2-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Lobbt-Atrium-26-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Newly-renovated-lobby-5-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Parking-and-Property-Exterior-21-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Property-Entrance-20-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Parking-and-Property-Exterior-22-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/15995-N-Barkers-Landing-Rd-Houston-TX-Office-Space-12-LargeHighDefinition.jpg'],
         links: {
             flyer: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/timberway-II/Timberway+II+Flyer.pdf',
             loopnet: 'https://www.loopnet.com/Listing/15995-N-Barkers-Landing-Rd-Houston-TX/5800463/?gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oJoc-rXsLlIvgUZb4DjZzCqHTygbRCfFBymMa_aBoywl8tWGBWphh0aAl-iEALw_wcB',
@@ -683,7 +732,7 @@ export const PROPERTIES = [
         description: ['7915 FM 1960 "The Willowbrook Building" is a three-story, top tier Class B property conveniently located in the FM 1960 submarket. This property offers convenient access to Highway 249, FM 1960 and Beltway 8 and is located near several high-end restaurants, hotels and retail centers. This property shares a parking lot with Willowbrook Mall, providing several retail shops and food options within walking distance. 7915 FM 1960 also provides quick access to George Bush Intercontinental Airport, making this property an ideal location for your business. The property has several amenities, including free parking, on-site building engineer, on-site courtesy guard, 24-hour monitored surveillance, and after-hours controlled access. The Willowbrook Building also has move-in ready suites, making it an easy transition when you are ready to make the move. Come discover 7915 FM 1960 today!'],
         displayName: 'Willowbrook',
         id: 'willowbrook',
-        images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Primary-1-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Lobby-Elevator-8-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Lobby-6-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Interior-View-7-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-4-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-3-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Alternate-3-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915+FM-1960+W%2C+Houston%2C+TX+77070+-+The+Willowbrook+Building+_+LoopNet_files/'],
+        images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-3-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Primary-1-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Lobby-Elevator-8-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Lobby-6-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Interior-View-7-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-4-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-3-LargeHighDefinition.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Alternate-3-Large.jpg', 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915+FM-1960+W%2C+Houston%2C+TX+77070+-+The+Willowbrook+Building+_+LoopNet_files/'],
         links: {
             flyer: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/Willowbrook+Flyer.pdf',
             loopnet: 'https://www.loopnet.com/Listing/7915-FM-1960-W-Houston-TX/21917626/?gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oJSloeC9iCmxg-yNlpmWffctlcSKrSm5vqzwH3FAWgc1EUWkd-B9ZwaAuZwEALw_wcB',
@@ -715,7 +764,7 @@ export const PROPERTIES = [
                 available: true,
                 id: '101',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+110+-+2%2C866+nra+01.27.2023+(existing).jpg'],
-                pdf: '',
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+110+-+2%2C866+nra+01.27.2023+(existing).jpg',
                 psf: '$8.00 - $10.00',
                 sqft: '1,945'
             },
@@ -915,7 +964,7 @@ export const PROPERTIES = [
                 available: false,
                 id: '610',
                 images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/610/610.jpg'],
-                pdf: '',
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/spectrum/610/Floor+Plan+922Spectrum+Suite+610++1258+nra+11282022+existing.pdf',
                 psf: '$23.50 - $25.50',
                 sqft: '1,258'
             },

@@ -8,11 +8,11 @@ import { Variants, motion } from 'framer-motion'
 const scrollIn: Variants = {
     hide: {
         opacity: 0,
-        y: 250,
+        y: 100,
     },
     leave: {
         opacity: 0,
-        y: -250
+        y: -100
     },
     show: {
         opacity: 1,

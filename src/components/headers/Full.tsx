@@ -26,10 +26,11 @@ const Full = ({ children }: Partial<IComponent>) => {
             variants={fadeIn}>
             <Image className={styles.image}
                 src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg"
-                alt="A background image."
+                alt=""
                 quality={100}
+                height={1080}
+                width={1920}
                 fill
-                sizes="100vw"
                 priority
                 style={{
                     objectFit: 'cover',

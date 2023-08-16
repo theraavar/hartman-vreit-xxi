@@ -1,5 +1,5 @@
 .inspire {
-    padding: 0 25%;
+    padding: 0 15%;
     z-index: 5;
 }
 
@@ -36,4 +36,16 @@
     padding-top: 2px;
     margin-bottom: 4px;
     width: 40%;
+}
+
+@media screen and (min-width: 640px) {
+    .inspire {
+        padding: 0 18%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inspire {
+        padding: 0 21%;
+    }
 }

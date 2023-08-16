@@ -763,8 +763,8 @@ export const PROPERTIES = [
             {
                 available: true,
                 id: '101',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+110+-+2%2C866+nra+01.27.2023+(existing).jpg'],
-                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+110+-+2%2C866+nra+01.27.2023+(existing).jpg',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+101+01.13.2021+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/101/928+-+7915+FM+1960+Willowbrook+Suite+101+01.13.2021+(existing).pdf',
                 psf: '$8.00 - $10.00',
                 sqft: '1,945'
             },

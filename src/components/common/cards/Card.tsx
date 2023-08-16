@@ -40,7 +40,7 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
                             height={1080}
                             width={1920}
                             quality={100}
-                            style={{ objectFit: 'fill' }} />
+                            style={{ objectFit: "fill", height: "100%", width: "100%" }} />
                     </div>
                     <div className={styles.textContainer}>
                         {children}

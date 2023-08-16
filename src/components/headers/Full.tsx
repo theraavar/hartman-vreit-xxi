@@ -28,8 +28,6 @@ const Full = ({ children }: Partial<IComponent>) => {
                 src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg"
                 alt=""
                 quality={100}
-                height={1080}
-                width={1920}
                 fill
                 priority
                 style={{

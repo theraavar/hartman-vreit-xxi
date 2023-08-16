@@ -63,7 +63,12 @@
 }
 
 .statistics>:last-child {
-    padding: 0.25rem 0.8rem;
+    padding: 0;
+}
+
+.statistics> :last-child>* {
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
 }
 
 .statistics>:last-child:hover {

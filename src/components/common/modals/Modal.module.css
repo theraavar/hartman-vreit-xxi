@@ -66,8 +66,7 @@
 .closeButton:hover {
     background-color: var(--gamma);
     border: 2px solid var(--delta);
-    color: var(--alpha);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .statistics {

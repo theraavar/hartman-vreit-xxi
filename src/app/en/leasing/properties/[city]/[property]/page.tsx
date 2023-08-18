@@ -45,11 +45,11 @@ async function getPaths() {
 const Page = ({ params, searchParams }: Props) => {
     return (
         <Vessel>
-            {PROPERTIES.map((value, index) => {
+            {PROPERTIES.map((value) => {
                 if (params.property === value.id) {
                     return (
                         <div className={styles.wrapper}
-                            key={index}>
+                            key={value.id}>
                             {/* This is our heading. */}
                             <div className={styles.header}>
                                 <h5>{value.displayName}</h5>
@@ -79,7 +79,7 @@ const Page = ({ params, searchParams }: Props) => {
                                         if (v.available) {
                                             return (
                                                 <Modal
-                                                    key={i}
+                                                    key={v.id}
                                                     buttonText={`Suite ${v.id}`}
                                                     imageURL={v.images[0]}
                                                     statistics={

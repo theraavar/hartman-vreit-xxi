@@ -15,10 +15,10 @@ const Page = () => {
         <Vessel>
             <Title title='Properties' />
             <Grid>
-                {PROPERTIES.map((value, index) => {
+                {PROPERTIES.map((value) => {
                     return (
                         <Card
-                            key={index}
+                            key={value.id}
                             image={value.images[0]}
                             link={value.links.url}>
                             <h5>{value.displayName}</h5>

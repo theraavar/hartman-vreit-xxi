@@ -67,10 +67,10 @@ const Page = ({ params, searchParams }: Props) => {
         <Vessel>
             <Title title={id} />
             <Grid>
-                {properties.map((value, index) => {
+                {properties.map((value) => {
                     return (
                         <Card
-                            key={index}
+                            key={value.id}
                             image={value.images[0]}
                             link={value.links.url}>
                             <h5>{value.displayName}</h5>

@@ -36,6 +36,7 @@
     border: 1px solid var(--border);
     flex-grow: 2;
     margin-bottom: 4px;
+    position: relative;
 }
 
 .image {

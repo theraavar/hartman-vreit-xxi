@@ -35,7 +35,7 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
                 <div className={styles.wrapper}>
                     <div className={styles.imageContainer}>
                         <Image className={styles.image}
-                            src={image || ""}
+                            src={`${image}` || ""}
                             alt=""
                             fill
                             objectFit='cover'

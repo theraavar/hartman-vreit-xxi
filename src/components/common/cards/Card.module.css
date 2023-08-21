@@ -36,6 +36,8 @@
     border: 1px solid var(--border);
     flex-grow: 2;
     margin-bottom: 4px;
+    min-height: 25vh;
+    min-width: 20vw;
     position: relative;
 }
 

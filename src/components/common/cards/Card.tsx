@@ -37,11 +37,9 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
                         <Image className={styles.image}
                             src={image || ""}
                             alt=""
-                            height={1080}
-                            width={1920}
-                            quality={100}
-                            role='presentation'
-                            style={{ objectFit: "fill" }} />
+                            layout='fill'
+                            objectFit='cover'
+                            objectPosition='center' />
                     </div>
                     <div className={styles.textContainer}>
                         {children}

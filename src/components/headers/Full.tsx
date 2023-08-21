@@ -26,13 +26,10 @@ const Full = ({ children }: Partial<IComponent>) => {
             variants={fadeIn}>
             <Image className={styles.image}
                 src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg"
-                alt=""
-                quality={100}
-                fill
-                priority
-                style={{
-                    objectFit: 'cover',
-                }}
+                alt=" "
+                layout='fill'
+                objectFit='cover'
+                objectPosition='center'
             />
             {children}
         </motion.header>

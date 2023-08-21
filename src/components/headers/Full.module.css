@@ -1,7 +1,7 @@
 .header {
     align-items: center;
     background-color: var(--background-dark);
-    background-image: url('https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg');
+    /* background-image: url('https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

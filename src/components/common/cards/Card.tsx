@@ -40,7 +40,6 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
                             height={1080}
                             width={1920}
                             quality={100}
-                            loading='eager'
                             role='presentation'
                             style={{ objectFit: "fill" }} />
                     </div>

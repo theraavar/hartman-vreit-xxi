@@ -37,7 +37,7 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
                         <Image className={styles.image}
                             src={image || ""}
                             alt=""
-                            layout='fill'
+                            fill
                             objectFit='cover'
                             objectPosition='center' />
                     </div>

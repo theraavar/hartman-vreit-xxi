@@ -25,9 +25,9 @@ const Full = ({ children }: Partial<IComponent>) => {
             exit="hide"
             variants={fadeIn}>
             <Image className={styles.image}
-                src="https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg"
+                src={"https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/willowbrook/7915-FM-1960-W-Houston-TX-Entrance-3-LargeHighDefinition.jpg"} //"https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg"
                 alt=" "
-                layout='fill'
+                fill
                 objectFit='cover'
                 objectPosition='center'
             />

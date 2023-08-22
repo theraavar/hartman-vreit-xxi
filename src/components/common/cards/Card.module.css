@@ -36,8 +36,8 @@
     border: 1px solid var(--border);
     flex-grow: 2;
     margin-bottom: 4px;
-    min-height: 25vh;
-    min-width: auto;
+    min-height: 35vh;
+    min-width: 75vw;
     position: relative;
 }
 
@@ -54,4 +54,25 @@
 .div:hover .textContainer {
     color: var(--alpha);
     background-color: var(--gamma);
+}
+
+@media screen and (min-width: 640px) {
+    .imageContainer {
+        min-height: 30vh;
+        min-width: 40vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imageContainer {
+        min-height: 20vh;
+        min-width: 25vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imageContainer {
+        min-height: 25vh;
+        min-width: 20vw;
+    }
 }

@@ -38,8 +38,9 @@ const Card = ({ children, image, link }: Partial<IComponent>) => {
                             src={`${image}` || ""}
                             alt=""
                             fill
-                            objectFit='cover'
-                            objectPosition='center' />
+                            priority
+                            sizes="(max-width: 640px) 45vw, (max-width: 768px) 30vw, (max-width: 1024px) 20vw, 80vw"
+                            style={{ objectPosition: "center" }} />
                     </div>
                     <div className={styles.textContainer}>
                         {children}

@@ -90,13 +90,34 @@
     background-color: var(--foreground);
     border-bottom: 2px solid silver;
     border-top: 2px solid gray;
-    min-width: 10rem;
-    padding: 0.5rem 1rem;
+    line-height: 2.5rem;
+    min-width: 40vw;
+    padding: 0;
 }
 
 .menu>li {
     display: block;
     position: relative;
+}
+
+.link {
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+
+.link:active {
+    background-color: var(--gamma);
+    color: var(--alpha);
+    transform: scale(0.8);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 /* ----- */
@@ -171,36 +192,6 @@
     .dropdown:hover>.aux li {
         opacity: 1;
         transform: translateX(1rem);
-    }
-
-    .dropdown>.submenu>li:nth-child(1),
-    .dropdown>.aux>li:nth-child(1) {
-        transition-delay: 100ms;
-    }
-
-    .dropdown>.submenu>li:nth-child(2),
-    .dropdown>.aux>li:nth-child(2) {
-        transition-delay: 200ms;
-    }
-
-    .dropdown>.submenu>li:nth-child(3),
-    .dropdown>.aux>li:nth-child(3) {
-        transition-delay: 300ms;
-    }
-
-    .dropdown>.submenu>li:nth-child(4),
-    .dropdown>.aux>li:nth-child(4) {
-        transition-delay: 400ms;
-    }
-
-    .dropdown>.submenu>li:nth-child(5),
-    .dropdown>.aux>li:nth-child(5) {
-        transition-delay: 500ms;
-    }
-
-    .dropdown>.submenu>li:nth-child(6),
-    .dropdown>.aux>li:nth-child(6) {
-        transition-delay: 100ms;
     }
 
     .submenu {

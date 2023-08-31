@@ -65,13 +65,13 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '08:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '8:00 AM - 1:00 PM',
+                sunday: '---'
             },
         },
         toggle: {
@@ -123,13 +123,13 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '08:00 - 18:00',
-                tuesday: '08:00 - 18:00',
-                wednesday: '08:00 - 18:00',
-                thursday: '08:00 - 18:00',
-                friday: '08:00 - 18:00',
-                saturday: '08:00 - 12:00',
-                sunday: '00:00 - 00:00'
+                monday: '8:00 AM - 6:00 PM',
+                tuesday: '8:00 AM - 6:00 PM',
+                wednesday: '8:00 AM - 6:00 PM',
+                thursday: '8:00 AM - 6:00 PM',
+                friday: '8:00 AM - 6:00 PM',
+                saturday: '8:00 AM - 12:00 PM',
+                sunday: '---'
             },
         },
         suites: [
@@ -227,22 +227,22 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '07:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '7:00 AM- 1:00 PM',
+                sunday: '---'
             },
             security: {
-                monday: '06:00 - 18:00',
-                tuesday: '06:00 - 18:00',
-                wednesday: '06:00 - 18:00',
-                thursday: '06:00 - 18:00',
-                friday: '06:00 - 18:00',
-                saturday: '00:00 - 00:00',
-                sunday: '00:00 - 00:00'
+                monday: '6:00 AM - 6:00 PM',
+                tuesday: '6:00 AM - 6:00 PM',
+                wednesday: '6:00 AM - 6:00 PM',
+                thursday: '6:00 AM - 6:00 PM',
+                friday: '6:00 AM - 6:00 PM',
+                saturday: '---',
+                sunday: '---'
             }
         },
         suites: [
@@ -341,22 +341,22 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '07:00 - 12:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '7:00 AM - 12:00 PM',
+                sunday: '---'
             },
             security: {
-                monday: '06:00 - 20:00',
-                tuesday: '06:00 - 20:00',
-                wednesday: '06:00 - 20:00',
-                thursday: '06:00 - 20:00',
-                friday: '06:00 - 20:00',
-                saturday: '00:00 - 00:00',
-                sunday: '00:00 - 00:00'
+                monday: '6:00 AM - 8:00 PM',
+                tuesday: '6:00 AM - 8:00 PM',
+                wednesday: '6:00 AM - 8:00 PM',
+                thursday: '6:00 AM - 8:00 PM',
+                friday: '6:00 AM - 8:00 PM',
+                saturday: '---',
+                sunday: '---'
             }
         },
         suites: [
@@ -462,22 +462,22 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '08:00 - 12:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '08:00 AM - 12:00 PM',
+                sunday: '---'
             },
             security: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '00:00 - 00:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '---',
+                sunday: '---'
             }
         },
         toggle: {
@@ -569,22 +569,22 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '08:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '8:00 AM - 1:00 PM',
+                sunday: '---'
             },
             security: {
-                monday: '07:00 - 18:00',
-                tuesday: '07:00 - 18:00',
-                wednesday: '07:00 - 18:00',
-                thursday: '07:00 - 18:00',
-                friday: '07:00 - 18:00',
-                saturday: '08:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '08:00 AM - 1:00 PM',
+                sunday: '---'
             }
         },
         toggle: {
@@ -675,22 +675,22 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '06:00 - 18:00',
-                tuesday: '06:00 - 18:00',
-                wednesday: '06:00 - 18:00',
-                thursday: '06:00 - 18:00',
-                friday: '06:00 - 18:00',
-                saturday: '07:00 - 12:00',
-                sunday: '00:00 - 00:00'
+                monday: '6:00 AM - 6:00 PM',
+                tuesday: '6:00 AM - 6:00 PM',
+                wednesday: '6:00 AM - 6:00 PM',
+                thursday: '6:00 AM - 6:00 PM',
+                friday: '6:00 AM - 6:00 PM',
+                saturday: '7:00 AM - 12:00 PM',
+                sunday: '---'
             },
             security: {
-                monday: '06:00 - 18:00',
-                tuesday: '06:00 - 18:00',
-                wednesday: '06:00 - 18:00',
-                thursday: '06:00 - 18:00',
-                friday: '06:00 - 18:00',
-                saturday: '07:00 - 12:00',
-                sunday: '00:00 - 00:00'
+                monday: '6:00 AM - 6:00 PM',
+                tuesday: '6:00 AM- 6:00 PM',
+                wednesday: '6:00 AM - 6:00 PM',
+                thursday: '6:00 AM - 6:00 PM',
+                friday: '6:00 AM - 6:00 PM',
+                saturday: '7:00 AM - 12:00 PM',
+                sunday: '---'
             }
         },
         toggle: {
@@ -740,23 +740,23 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 06:00',
-                tuesday: '07:00 - 06:00',
-                wednesday: '07:00 - 06:00',
-                thursday: '07:00 - 06:00',
-                friday: '07:00 - 06:00',
-                saturday: '08:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '8:00 AM - 1:00 PM',
+                sunday: '---'
             },
             reviews: false,
             security: {
-                monday: '07:00 - 06:00',
-                tuesday: '07:00 - 06:00',
-                wednesday: '07:00 - 06:00',
-                thursday: '07:00 - 06:00',
-                friday: '07:00 - 06:00',
-                saturday: '08:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 6:00 PM',
+                tuesday: '7:00 AM - 6:00 PM',
+                wednesday: '7:00 AM - 6:00 PM',
+                thursday: '7:00 AM - 6:00 PM',
+                friday: '7:00 AM - 6:00 PM',
+                saturday: '8:00 AM - 1:00 PM',
+                sunday: '---'
             }
         },
         suites: [
@@ -892,22 +892,22 @@ export const PROPERTIES = [
         },
         schedules: {
             building: {
-                monday: '07:00 - 19:00',
-                tuesday: '07:00 - 19:00',
-                wednesday: '07:00 - 19:00',
-                thursday: '07:00 - 19:00',
-                friday: '07:00 - 19:00',
-                saturday: '07:00 - 13:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 7:00 PM',
+                tuesday: '7:00 AM - 7:00 PM',
+                wednesday: '7:00 AM - 7:00 PM',
+                thursday: '7:00 AM - 7:00 PM',
+                friday: '7:00 AM - 7:00 PM',
+                saturday: '7:00 AM - 1:00 PM',
+                sunday: '---'
             },
             security: {
-                monday: '07:00 - 23:00',
-                tuesday: '07:00 - 23:00',
-                wednesday: '07:00 - 23:00',
-                thursday: '07:00 - 23:00',
-                friday: '07:00 - 23:00',
-                saturday: '00:00 - 00:00',
-                sunday: '00:00 - 00:00'
+                monday: '7:00 AM - 11:00 PM',
+                tuesday: '7:00 AM - 11:00 PM',
+                wednesday: '7:00 AM - 11:00 PM',
+                thursday: '7:00 AM - 11:00 PM',
+                friday: '7:00 AM - 11:00 PM',
+                saturday: '---',
+                sunday: '---'
             }
         },
         size: '176,786 SF',

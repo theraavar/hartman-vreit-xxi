@@ -1,24 +1,7 @@
-Before production: 
-
-    Check the metadata for each page; ensure it is correct.
-    Move all components around as much as possible to ensure no unintended overlap. [/]
-    Add enviroment variables to Vercel. [/]
-    Check page speed insights and fix current issues if possible. 
-
 TODO: Enable reCaptcha on the form?
 TODO: Overwrite the default error messages for email input.
 
 TODO: FIX MICROSOFT EDGE NOT LOADING SOME IMAGES!
-
-
-TODO: Fix the nav bar on mobile
-
-TODO: Fix image sizes for performance; check the next/image docs?
-https://developer.chrome.com/docs/lighthouse/performance/server-response-time/?utm_source=lighthouse&utm_medium=devtools
-https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/?utm_source=lighthouse&utm_medium=devtools
-https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources/?utm_source=lighthouse&utm_medium=devtools
-https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/?utm_source=lighthouse&utm_medium=devtools
-https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss/?utm_source=lighthouse&utm_medium=devtools
 
 TODO: Fix the generateMetadata functions in our dynamic routes
 TODO: Fix this build error: src/app/en/leasing/properties/[city]/page.tsx

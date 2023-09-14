@@ -745,32 +745,32 @@ export const PROPERTIES = [
             {
                 available: true,
                 id: '310',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/310/310.jpg'],
-                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/310/310.jpg',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/310/695-3100+Weslayan+Suite+310+-+2%2C379+nra+01.26.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/310/695-3100+Weslayan+Suite+310+-+2%2C379+nra+01.26.2023+(existing).pdf',
                 psf: '$12.50',
                 sqft: '2,379'
             },
             {
                 available: true,
                 id: '350',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/350/350.jpg'],
-                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/350/350.jpg',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/350/695-3100+Weslayan+Suite+350+-+1%2C975+nra+02.28.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/350/695-3100+Weslayan+Suite+350+-+1%2C975+nra+02.28.2023+(existing).pdf',
                 psf: '$12.50',
                 sqft: '1,975'
             },
             {
                 available: true,
                 id: '374',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/374/374.jpg'],
-                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/374/374.pdf',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/374/695-3100+Weslayan+Suite+374+-+1%2C502+nra+11.02.2021.jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/374/695-3100+Weslayan+Suite+374+-+1%2C502+nra+11.02.2021.pdf',
                 psf: '$12.50',
                 sqft: '1,502'
             },
             {
                 available: true,
                 id: '377',
-                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/377/377.png'],
-                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/377/377.png',
+                images: ['https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/377/695-3100+Weslayan+Suite+377+-+1%2C593+nra+01.26.2023+(existing).jpg'],
+                pdf: 'https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/properties/weslayan/377/695-3100+Weslayan+Suite+377+-+1%2C593+nra+01.26.2023+(existing).pdf',
                 psf: '$12.50',
                 sqft: '1,593'
             },

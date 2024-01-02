@@ -27,10 +27,11 @@ const Inspire = () => {
             variants={fadeIn}>
             <div className={styles.div}>
                 <div className={styles.wrapper}>
-                    <h3>Don&apos;t miss out on the opportunity to elevate your business with a professional and fully-equipped workspace.</h3>
+                    <h1>FREE RENT!</h1>
+                    <h3>Refer a business to lease and receive a free month of rent!</h3>
                 </div>
                 <div className={styles.wrapper}>
-                    <Link className={styles.link} href='/en/leasing/properties'>Browse</Link>
+                    <Link className={styles.link} href='/en/support/contact-us'>Refer Now!</Link>
                 </div>
             </div>
         </motion.div>

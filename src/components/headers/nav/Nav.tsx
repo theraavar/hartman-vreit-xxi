@@ -85,23 +85,18 @@ const Nav = () => {
                                 </ul>
                             </li>
                             <li className={`${styles.dropdown}`}
-                                onClick={(e) => { e.stopPropagation(); setDropdown3(!dropdown3) }}>Support {setArrow(dropdown3)}
-                                <ul className={`${styles.submenu} ${dropdown3 ? styles.show : styles.hide}`}>
+                                onClick={(e) => { e.stopPropagation(); setDropdown3(!dropdown3) }}>Tenants {setArrow(dropdown3)}
+                                <ul className={`${styles.aux} ${aux2 ? styles.show : styles.hide}`}>
                                     <li>
-                                        <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
+                                        <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
                                     </li>
-                                    <li className={`${styles.dropdown}`}
-                                        onClick={(e) => { e.stopPropagation(); setAux2(!aux2) }}>Tenants {setArrow(aux2)}
-                                        <ul className={`${styles.aux} ${aux2 ? styles.show : styles.hide}`}>
-                                            <li>
-                                                <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
-                                            </li>
-                                            <li>
-                                                <Link className={styles.link} href="/en/support/payments">Payments</Link>
-                                            </li>
-                                        </ul>
+                                    <li>
+                                        <Link className={styles.link} href="/en/support/payments">Payments</Link>
                                     </li>
                                 </ul>
+                            </li>
+                            <li>
+                                <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
                             </li>
                         </ul>
                     </div>
@@ -155,22 +150,19 @@ const Nav = () => {
                             </li>
                         </ul>
                     </li>
-                    <li className={`${styles.dropdown}`}>Support
+                    <li className={`${styles.dropdown}`}>Tenants
                         <ul className={styles.submenu}>
+
                             <li>
-                                <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
+                                <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
                             </li>
-                            <li className={`${styles.dropdown}`}>Tenants
-                                <ul className={styles.aux}>
-                                    <li>
-                                        <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
-                                    </li>
-                                    <li>
-                                        <Link className={styles.link} href="/en/support/payments">Payments</Link>
-                                    </li>
-                                </ul>
+                            <li>
+                                <Link className={styles.link} href="/en/support/payments">Payments</Link>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
                     </li>
                 </ul>
             </div>

@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     height: auto;
-    margin-top: 1rem;
-    padding: 0.5rem 3%;
+    margin-top: 0.5rem;
+    padding: 0.25rem 3%;
     position: absolute;
     top: 0;
     width: 100%;
@@ -83,15 +83,15 @@
 .mobile .menu {
     position: absolute;
     right: 0;
-    top: 1rem;
+    top: 0.5rem;
 }
 
 .menu li {
     background-color: var(--foreground);
     border-bottom: 2px solid silver;
     border-top: 2px solid gray;
-    line-height: 2.5rem;
-    min-width: 40vw;
+    line-height: 1.5rem;
+    min-width: 10vw;
     padding: 0;
 }
 
@@ -157,8 +157,8 @@
         background-color: var(--foreground);
         border-bottom: 2px solid silver;
         border-top: 2px solid gray;
-        min-width: 5rem;
-        padding: 0.5rem 1rem;
+        min-width: 3rem;
+        padding: 0.25rem 0.5rem;
     }
 
     .menu>li {
